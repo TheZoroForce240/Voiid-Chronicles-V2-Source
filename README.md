@@ -11,6 +11,8 @@
 
 * MAJigsaw77 - [Mobile Porting Stuff](https://github.com/MAJigsaws-Storage/FNF-Mobile-Porting) (Android port currently unfinished)
 
+* lunarcleint - [3D Flixel stuff](https://github.com/lunarcleint/3D-HaxeFlixel)
+
 ## Shader Credits: 
 
 * [Fast Blur](https://github.com/Jam3/glsl-fast-gaussian-blur/blob/master/5.glsl)
