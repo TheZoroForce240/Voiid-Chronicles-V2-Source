@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BF_WIIK_3.png">
+  <!-- Created with Adobe Animate version 21.0.0.35450 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="BF Attack Down0000" x="2205.792" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0001" x="2594.07" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0002" x="2982.348" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0003" x="3370.626" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0004" x="3758.904" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0005" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0006" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0007" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0008" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0009" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0010" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0011" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0012" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0013" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0014" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0015" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0016" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0017" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0018" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0019" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0020" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0021" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0022" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Down0023" x="4147.182" y="277.722" width="388.278" height="237.096" />
+  <SubTexture name="BF Attack Left0000" x="4535.46" y="277.722" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0001" x="4923.072" y="277.722" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0002" x="0" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0003" x="387.612" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0004" x="775.224" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0005" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0006" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0007" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0008" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0009" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0010" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0011" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0012" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0013" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0014" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0015" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0016" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0017" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0018" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0019" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0020" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0021" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0022" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Left0023" x="1162.836" y="555.444" width="387.612" height="262.404" />
+  <SubTexture name="BF Attack Right0000" x="1550.448" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0001" x="1950.714" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0002" x="2350.98" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0003" x="2751.246" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0004" x="3151.512" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0005" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0006" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0007" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0008" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0009" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0010" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0011" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0012" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0013" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0014" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0015" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0016" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0017" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0018" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0019" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0020" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0021" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0022" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Right0023" x="3551.778" y="555.444" width="400.266" height="286.38" />
+  <SubTexture name="BF Attack Up0000" x="3952.044" y="555.444" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0001" x="4336.326" y="555.444" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0002" x="4336.326" y="555.444" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0003" x="4720.608" y="555.444" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0004" x="0" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0005" x="384.282" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0006" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0007" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0008" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0009" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0010" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0011" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0012" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0013" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0014" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0015" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0016" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0017" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0018" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0019" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0020" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0021" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0022" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Attack Up0023" x="768.564" y="841.824" width="384.282" height="270.396" />
+  <SubTexture name="BF Block Down0000" x="1152.846" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0001" x="1419.912" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0002" x="1419.912" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0003" x="1686.978" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0004" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0005" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0006" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0007" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0008" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0009" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0010" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0011" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0012" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0013" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0014" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0015" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0016" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0017" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0018" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0019" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0020" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0021" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0022" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Down0023" x="1954.044" y="841.824" width="267.066" height="266.4" />
+  <SubTexture name="BF Block Left0000" x="2221.11" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0001" x="2494.17" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0002" x="2494.17" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0003" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0004" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0005" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0006" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0007" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0008" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0009" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0010" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0011" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0012" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0013" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0014" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0015" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0016" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0017" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0018" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0019" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0020" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0021" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0022" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Left0023" x="2767.23" y="841.824" width="273.06" height="266.4" />
+  <SubTexture name="BF Block Right0000" x="3040.29" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0001" x="3315.348" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0002" x="3315.348" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0003" x="3590.406" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0004" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0005" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0006" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0007" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0008" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0009" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0010" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0011" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0012" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0013" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0014" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0015" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0016" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0017" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0018" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0019" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0020" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0021" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0022" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Right0023" x="3865.464" y="841.824" width="275.058" height="267.732" />
+  <SubTexture name="BF Block Up0000" x="4140.522" y="841.824" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0001" x="4424.904" y="841.824" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0002" x="4424.904" y="841.824" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0003" x="4709.286" y="841.824" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0004" x="4993.668" y="841.824" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0005" x="0" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0006" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0007" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0008" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0009" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0010" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0011" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0012" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0013" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0014" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0015" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0016" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0017" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0018" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0019" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0020" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0021" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0022" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Block Up0023" x="284.382" y="1112.22" width="284.382" height="267.066" />
+  <SubTexture name="BF Dead Loop0000" x="568.764" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0001" x="922.41" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0002" x="922.41" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0003" x="1276.056" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0004" x="1276.056" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0005" x="1629.702" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0006" x="1629.702" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0007" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0008" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0009" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0010" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0011" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0012" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0013" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0014" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0015" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0016" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0017" x="568.764" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0018" x="922.41" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0019" x="922.41" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0020" x="1276.056" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0021" x="1276.056" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0022" x="1629.702" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0023" x="1629.702" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0024" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0025" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0026" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0027" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0028" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0029" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0030" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0031" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0032" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead Loop0033" x="1983.348" y="1112.22" width="353.646" height="165.168" />
+  <SubTexture name="BF Dead confirm0000" x="2336.994" y="1112.22" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0001" x="2731.266" y="1112.22" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0002" x="3125.538" y="1112.22" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0003" x="3519.81" y="1112.22" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0004" x="3914.082" y="1112.22" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0005" x="4308.354" y="1112.22" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0006" x="4702.626" y="1112.22" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0007" x="0" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0008" x="394.272" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0009" x="788.544" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0010" x="1182.816" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0011" x="1577.088" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0012" x="1971.36" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0013" x="2365.632" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0014" x="2759.904" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0015" x="3154.176" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0016" x="3548.448" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0017" x="3942.72" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0018" x="4336.992" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0019" x="4731.264" y="1379.286" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0020" x="0" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0021" x="394.272" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0022" x="788.544" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0023" x="1182.816" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0024" x="1577.088" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0025" x="1577.088" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0026" x="1577.088" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0027" x="1577.088" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0028" x="1577.088" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0029" x="1577.088" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0030" x="1577.088" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0031" x="1577.088" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0032" x="1577.088" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF Dead confirm0033" x="1577.088" y="1561.77" width="394.272" height="182.484" />
+  <SubTexture name="BF RIGHT MISS0000" x="1234.764" y="2175.822" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS0001" x="1519.146" y="2175.822" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS0002" x="1519.146" y="2175.822" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS0003" x="1803.528" y="2175.822" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS0004" x="2087.91" y="2175.822" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS0005" x="2372.292" y="2175.822" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS0006" x="2372.292" y="2175.822" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS0007" x="2372.292" y="2175.822" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS0008" x="2372.292" y="2175.822" width="284.382" height="272.394" />
+  <SubTexture name="BF dies0000" x="1971.36" y="1561.77" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0001" x="2382.948" y="1561.77" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0002" x="2794.536" y="1561.77" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0003" x="3206.124" y="1561.77" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0004" x="3617.712" y="1561.77" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0005" x="4029.3" y="1561.77" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0006" x="4440.888" y="1561.77" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0007" x="4852.476" y="1561.77" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0008" x="0" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0009" x="0" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0010" x="411.588" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0011" x="411.588" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0012" x="823.176" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0013" x="823.176" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0014" x="1234.764" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0015" x="1646.352" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0016" x="2057.94" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0017" x="2057.94" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0018" x="2469.528" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0019" x="2881.116" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0020" x="3292.704" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0021" x="3292.704" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0022" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0023" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0024" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0025" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0026" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0027" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0028" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0029" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0030" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0031" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0032" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0033" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0034" x="4115.88" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0035" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0036" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0037" x="3704.292" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0038" x="4527.468" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0039" x="4527.468" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0040" x="4527.468" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0041" x="4527.468" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0042" x="4527.468" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0043" x="4939.056" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0044" x="4939.056" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0045" x="4939.056" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0046" x="4939.056" y="1868.796" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0047" x="0" y="2175.822" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0048" x="0" y="2175.822" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0049" x="0" y="2175.822" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0050" x="0" y="2175.822" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0051" x="0" y="2175.822" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0052" x="411.588" y="2175.822" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0053" x="411.588" y="2175.822" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0054" x="411.588" y="2175.822" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0055" x="411.588" y="2175.822" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0056" x="823.176" y="2175.822" width="411.588" height="307.026" />
+  <SubTexture name="BF dies0057" x="823.176" y="2175.822" width="411.588" height="307.026" />
+  <SubTexture name="BF idle dance0000" x="2656.674" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0001" x="2923.74" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0002" x="3190.806" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0003" x="3457.872" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0004" x="3724.938" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0005" x="3992.004" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0006" x="4259.07" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0007" x="4526.136" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0008" x="4793.202" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0009" x="4793.202" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0010" x="5060.268" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0011" x="5060.268" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0012" x="5060.268" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="BF idle dance0013" x="5060.268" y="2175.822" width="267.066" height="268.398" />
+  <SubTexture name="dodge DOWN0000" x="0" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0001" x="283.05" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0002" x="566.1" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0003" x="849.15" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0004" x="1132.2" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0005" x="1415.25" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0006" x="1698.3" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0007" x="1981.35" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0008" x="2264.4" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0009" x="2547.45" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0010" x="2830.5" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0011" x="2264.4" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0012" x="2547.45" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0013" x="3113.55" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge DOWN0014" x="3396.6" y="0" width="283.05" height="246.42" />
+  <SubTexture name="dodge UP0000" x="3679.65" y="0" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0001" x="3955.374" y="0" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0002" x="4231.098" y="0" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0003" x="4506.822" y="0" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0004" x="4782.546" y="0" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0005" x="5058.27" y="0" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0006" x="0" y="277.722" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0007" x="275.724" y="277.722" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0008" x="551.448" y="277.722" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0009" x="827.172" y="277.722" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0010" x="1102.896" y="277.722" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0011" x="1378.62" y="277.722" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0012" x="1654.344" y="277.722" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0013" x="1930.068" y="277.722" width="275.724" height="277.722" />
+  <SubTexture name="dodge UP0014" x="551.448" y="277.722" width="275.724" height="277.722" />
+</TextureAtlas>

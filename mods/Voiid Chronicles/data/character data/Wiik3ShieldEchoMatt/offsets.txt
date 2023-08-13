@@ -1,0 +1,4 @@
+idlemoment 1 -5
+FadeOut 1 -6
+idle 1 -5
+FadeIn 1 -6

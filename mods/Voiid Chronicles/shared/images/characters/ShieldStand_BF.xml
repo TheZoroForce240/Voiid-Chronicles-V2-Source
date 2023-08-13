@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ShieldStand_BF.png">
+  <!-- Created with Adobe Animate version 21.0.0.35450 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="BF Shield0000" x="0" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0001" x="0" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0002" x="331.668" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0003" x="331.668" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0004" x="663.336" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0005" x="663.336" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0006" x="995.004" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0007" x="995.004" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0008" x="1326.672" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0009" x="1326.672" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0010" x="1658.34" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0011" x="1658.34" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0012" x="1658.34" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield0013" x="1658.34" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0000" x="1990.008" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0001" x="2321.676" y="0" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0002" x="0" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0003" x="331.668" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0004" x="663.336" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0005" x="995.004" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0006" x="1326.672" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0007" x="1658.34" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0008" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0009" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0010" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0011" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0012" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade In0013" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0000" x="1658.34" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0001" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0002" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0003" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0004" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0005" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0006" x="1990.008" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0007" x="2321.676" y="301.032" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0008" x="0" y="602.064" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0009" x="331.668" y="602.064" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0010" x="663.336" y="602.064" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0011" x="995.004" y="602.064" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0012" x="1326.672" y="602.064" width="331.668" height="301.032" />
+  <SubTexture name="BF Shield Fade Out0013" x="1990.008" y="0" width="331.668" height="301.032" />
+</TextureAtlas>

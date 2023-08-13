@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BF_WIIK_3_SING.png">
+  <!-- Created with Adobe Animate version 21.0.0.35450 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="BF RIGHT MISS MIC0000" x="558.108" y="1079.586" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS MIC0001" x="842.49" y="1079.586" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS MIC0002" x="842.49" y="1079.586" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS MIC0003" x="1126.872" y="1079.586" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS MIC0004" x="1411.254" y="1079.586" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS MIC0005" x="1695.636" y="1079.586" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS MIC0006" x="1695.636" y="1079.586" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS MIC0007" x="1695.636" y="1079.586" width="284.382" height="272.394" />
+  <SubTexture name="BF RIGHT MISS MIC0008" x="1695.636" y="1079.586" width="284.382" height="272.394" />
+  <SubTexture name="BF SING DOWN0000" x="1980.018" y="1079.586" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0001" x="1980.018" y="1079.586" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0002" x="2244.42" y="1079.586" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0003" x="0" y="1351.98" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0004" x="264.402" y="1351.98" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0005" x="528.804" y="1351.98" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0006" x="793.206" y="1351.98" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0007" x="1057.608" y="1351.98" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0008" x="1057.608" y="1351.98" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0009" x="1057.608" y="1351.98" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0010" x="1057.608" y="1351.98" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0011" x="1057.608" y="1351.98" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0012" x="1057.608" y="1351.98" width="264.402" height="236.43" />
+  <SubTexture name="BF SING DOWN0013" x="1057.608" y="1351.98" width="264.402" height="236.43" />
+  <SubTexture name="BF SING LEFT0000" x="1322.01" y="1351.98" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0001" x="1322.01" y="1351.98" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0002" x="1590.408" y="1351.98" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0003" x="1858.806" y="1351.98" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0004" x="2127.204" y="1351.98" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0005" x="2395.602" y="1351.98" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0006" x="0" y="1617.048" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0007" x="268.398" y="1617.048" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0008" x="536.796" y="1617.048" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0009" x="536.796" y="1617.048" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0010" x="536.796" y="1617.048" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0011" x="536.796" y="1617.048" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0012" x="536.796" y="1617.048" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0013" x="536.796" y="1617.048" width="268.398" height="265.068" />
+  <SubTexture name="BF SING LEFT0014" x="536.796" y="1617.048" width="268.398" height="265.068" />
+  <SubTexture name="BF SING RIGHT0000" x="805.194" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0001" x="1082.25" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0002" x="1359.306" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0003" x="1636.362" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0004" x="1913.418" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0005" x="2190.474" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0006" x="2190.474" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0007" x="2190.474" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0008" x="2190.474" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0009" x="2190.474" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0010" x="2190.474" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0011" x="2190.474" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0012" x="2190.474" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING RIGHT0013" x="2190.474" y="1617.048" width="277.056" height="266.4" />
+  <SubTexture name="BF SING UP0000" x="0" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0001" x="0" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0002" x="263.07" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0003" x="526.14" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0004" x="789.21" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0005" x="1052.28" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0006" x="1315.35" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0007" x="1578.42" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0008" x="1578.42" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0009" x="1578.42" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0010" x="1578.42" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0011" x="1578.42" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0012" x="1578.42" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0013" x="1578.42" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF SING UP0014" x="1578.42" y="1883.448" width="263.07" height="307.692" />
+  <SubTexture name="BF idle dance 20000" x="287.046" y="801.864" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20001" x="566.1" y="801.864" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20002" x="845.154" y="801.864" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20003" x="1124.208" y="801.864" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20004" x="1403.262" y="801.864" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20005" x="1682.316" y="801.864" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20006" x="1961.37" y="801.864" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20007" x="2240.424" y="801.864" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20008" x="0" y="1079.586" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20009" x="0" y="1079.586" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20010" x="279.054" y="1079.586" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20011" x="279.054" y="1079.586" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20012" x="279.054" y="1079.586" width="279.054" height="268.398" />
+  <SubTexture name="BF idle dance 20013" x="279.054" y="1079.586" width="279.054" height="268.398" />
+  <SubTexture name="dodge DOWN MIC0000" x="0" y="0" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0001" x="307.692" y="0" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0002" x="615.384" y="0" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0003" x="923.076" y="0" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0004" x="1230.768" y="0" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0005" x="1538.46" y="0" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0006" x="1846.152" y="0" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0007" x="2153.844" y="0" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0008" x="0" y="246.42" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0009" x="307.692" y="246.42" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0010" x="615.384" y="246.42" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0011" x="0" y="246.42" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0012" x="307.692" y="246.42" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0013" x="923.076" y="246.42" width="307.692" height="246.42" />
+  <SubTexture name="dodge DOWN MIC0014" x="1230.768" y="246.42" width="307.692" height="246.42" />
+  <SubTexture name="dodge UP MIC0000" x="1538.46" y="246.42" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0001" x="1825.506" y="246.42" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0002" x="2112.552" y="246.42" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0003" x="2399.598" y="246.42" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0004" x="0" y="524.142" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0005" x="287.046" y="524.142" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0006" x="574.092" y="524.142" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0007" x="861.138" y="524.142" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0008" x="1148.184" y="524.142" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0009" x="1435.23" y="524.142" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0010" x="1722.276" y="524.142" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0011" x="2009.322" y="524.142" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0012" x="2296.368" y="524.142" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0013" x="0" y="801.864" width="287.046" height="277.722" />
+  <SubTexture name="dodge UP MIC0014" x="1148.184" y="524.142" width="287.046" height="277.722" />
+</TextureAtlas>

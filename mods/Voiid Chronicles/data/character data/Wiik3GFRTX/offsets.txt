@@ -1,0 +1,2 @@
+danceRight 0 30
+danceLeft 0 30

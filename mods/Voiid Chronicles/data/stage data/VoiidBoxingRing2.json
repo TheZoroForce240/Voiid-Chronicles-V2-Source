@@ -1,0 +1,133 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.2,
+				1
+			],
+			"position": [
+				-450,
+				-176
+			],
+			"alpha": 1,
+			"file_Name": "sky1",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.499999999999999,
+				1
+			],
+			"position": [
+				-290,
+				-192
+			],
+			"file_Name": "sea1",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.349999999999999,
+				1
+			],
+			"position": [
+				-260,
+				-200
+			],
+			"file_Name": "mountainn 3",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.449999999999999,
+				1
+			],
+			"position": [
+				-236,
+				-180
+			],
+			"file_Name": "mountainn 2",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.499999999999999,
+				1
+			],
+			"position": [
+				-310,
+				-159
+			],
+			"file_Name": "mountainn 1",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.649999999999999,
+				1
+			],
+			"position": [
+				-245,
+				-220
+			],
+			"file_Name": "trees1",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-195,
+				-238
+			],
+			"file_Name": "ring1",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"layer": "foreground",
+			"position": [
+				-192,
+				-238
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "ruido1"
+		}
+	],
+	"character_Positions": [
+		[
+			1590,
+			960
+		],
+		[
+			630,
+			940
+		],
+		[
+			1057,
+			860
+		]
+	],
+	"camera_Zoom": 0.57
+}

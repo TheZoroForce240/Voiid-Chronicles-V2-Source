@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MattStand Attack.png">
+  <!-- Created with Adobe Animate version 21.0.0.35450 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="attack0000" x="0" y="0" width="274.392" height="312.354" frameX="-11.322" frameY="-44.622" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0001" x="274.392" y="0" width="274.392" height="312.354" frameX="-11.322" frameY="-44.622" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0002" x="548.784" y="0" width="278.388" height="312.354" frameX="-7.992" frameY="-44.622" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0003" x="548.784" y="0" width="278.388" height="312.354" frameX="-7.992" frameY="-44.622" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0004" x="827.172" y="0" width="293.04" height="313.686" frameX="0" frameY="-43.29" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0005" x="827.172" y="0" width="293.04" height="313.686" frameX="0" frameY="-43.29" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0006" x="1120.212" y="0" width="274.392" height="304.362" frameX="-32.634" frameY="-52.614" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0007" x="1394.604" y="0" width="796.536" height="352.98" frameX="-23.976" frameY="0" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0008" x="0" y="352.98" width="675.99" height="350.316" frameX="-14.652" frameY="-16.65" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0009" x="675.99" y="352.98" width="442.224" height="344.322" frameX="-8.658" frameY="-31.968" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0010" x="1118.214" y="352.98" width="346.32" height="310.356" frameX="-52.614" frameY="-42.624" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0011" x="1464.534" y="352.98" width="345.654" height="310.356" frameX="-52.614" frameY="-42.624" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0012" x="1810.188" y="352.98" width="345.654" height="310.356" frameX="-52.614" frameY="-42.624" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0013" x="2155.842" y="352.98" width="345.654" height="310.356" frameX="-52.614" frameY="-42.624" frameWidth="820.512" frameHeight="376.29" />
+  <SubTexture name="attack0014" x="0" y="703.296" width="345.654" height="310.356" frameX="-52.614" frameY="-42.624" frameWidth="820.512" frameHeight="376.29" />
+</TextureAtlas>

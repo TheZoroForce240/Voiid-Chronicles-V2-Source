@@ -1,0 +1,71 @@
+{
+	"character_Positions": [
+		[
+			1875,
+			1207
+		],
+		[
+			1475,
+			1207
+		],
+		[
+			1606,
+			1090
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-231,
+				-226
+			],
+			"scroll_Factor": [
+				0.7,
+				0.7
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "Voiid3",
+			"alpha": 1
+		},
+		{
+			"is_Animated": true,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"position": [
+				-375,
+				-300
+			],
+			"file_Name": "Voiid2Animated",
+			"scale": 2,
+			"start_Animation": "WallAnimated",
+			"animations": [
+				{
+					"animation_name": "WallAnimated",
+					"looped": true,
+					"fps": 23,
+					"name": "WallAnimated"
+				}
+			]
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-274,
+				-186
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "Voiid1"
+		}
+	],
+	"camera_Zoom": 0.53
+}

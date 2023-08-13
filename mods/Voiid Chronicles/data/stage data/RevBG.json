@@ -1,0 +1,48 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-159,
+				-135
+			],
+			"file_Name": "AlterEgoRevPartBG",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-159,
+				-135
+			],
+			"layer": "foreground",
+			"file_Name": "Grain",
+			"scale": 1
+		}
+	],
+	"character_Positions": [
+		[
+			1829,
+			981
+		],
+		[
+			886,
+			961
+		],
+		[
+			1289,
+			844
+		]
+	],
+	"camera_Zoom": 0.6
+}

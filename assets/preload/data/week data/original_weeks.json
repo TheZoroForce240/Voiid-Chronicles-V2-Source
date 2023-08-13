@@ -1,0 +1,164 @@
+{
+    "groupName": "Original Weeks",
+    "pathName": "default",
+    "weeks": [
+        {
+            "imagePath": "tutorial",
+            "songs": [
+                "Tutorial"
+            ],
+            "characters": [
+                "",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["easy", "default/easy"],
+                ["normal", "default/normal"],
+                ["hard", "default/hard"]
+            ]
+        },
+        {
+            "imagePath": "week1",
+            "songs": [
+                "Bopeebo",
+                "Fresh",
+                "Dad Battle"
+            ],
+            "characters": [
+                "dad",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Daddy Dearest",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["easy", "default/easy"],
+                ["normal", "default/normal"],
+                ["hard", "default/hard"]
+            ]
+        },
+        {
+            "imagePath": "week2",
+            "songs": [
+                "Spookeez",
+                "South",
+                "Monster"
+            ],
+            "characters": [
+                "spooky",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Spooky Month",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["easy", "default/easy"],
+                ["normal", "default/normal"],
+                ["hard", "default/hard"]
+            ]
+        },
+        {
+            "imagePath": "week3",
+            "songs": [
+                "Pico",
+                "Philly Nice",
+                "Blammed"
+            ],
+            "characters": [
+                "pico",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Pico",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["easy", "default/easy"],
+                ["normal", "default/normal"],
+                ["hard", "default/hard"]
+            ]
+        },
+        {
+            "imagePath": "week4",
+            "songs": [
+                "Satin Panties",
+                "High",
+                "M.I.L.F"
+            ],
+            "characters": [
+                "mom",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Mommy Must Murder",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["easy", "default/easy"],
+                ["normal", "default/normal"],
+                ["hard", "default/hard"]
+            ]
+        },
+        {
+            "imagePath": "week5",
+            "songs": [
+                "Cocoa",
+                "Eggnog",
+                "Winter Horrorland"
+            ],
+            "characters": [
+                "parents",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Red Snow",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["easy", "default/easy"],
+                ["normal", "default/normal"],
+                ["hard", "default/hard"]
+            ]
+        },
+        {
+            "imagePath": "week6",
+            "songs": [
+                "Senpai",
+                "Roses",
+                "Thorns"
+            ],
+            "characters": [
+                "senpai",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Hating Simulator Ft. Moawling",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["easy", "default/easy"],
+                ["normal", "default/normal"],
+                ["hard", "default/hard"]
+            ]
+        },
+        {
+            "imagePath": "week7",
+            "songs": [
+                "Ugh",
+                "Guns",
+                "Stress"
+            ],
+            "characters": [
+                "tankman",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Tankman",
+            "backgroundColor":[249, 207, 81],
+            "difficulties": [
+                ["easy", "default/easy"],
+                ["normal", "default/normal"],
+                ["hard", "default/hard"]
+            ]
+        }
+    ]
+}

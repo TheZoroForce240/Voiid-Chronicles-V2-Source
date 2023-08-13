@@ -1,0 +1,68 @@
+{
+	"character_Positions": [
+		[
+			934,
+			332
+		],
+		[
+			-68,
+			329
+		],
+		[
+			421,
+			272
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-1121,
+				-760
+			],
+			"scroll_Factor": [
+				0.5,
+				0.5
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "void"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-1121,
+				-1060
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "floor",
+			"object_Name": "tko-floor"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-1121,
+				-1060
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 2,
+			"file_Name": "floordarknew",
+			"object_Name": "tko-floorGlow"
+		}
+	],
+	"character_Scrolls": [
+		1,
+		1,
+		1
+	],
+	"camera_Zoom": 0.6
+}

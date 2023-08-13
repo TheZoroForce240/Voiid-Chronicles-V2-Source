@@ -1,0 +1,45 @@
+{
+    "defaultFlipX": true,
+    "cameraOffset": [-85, -200],
+    "dancesLeftAndRight": false,
+    "imagePath": "empty",
+    "spritesheetType": "SPARROW",
+    "healthIcon": "Wiik1BFRTX",
+    "barColor": [255, 175, 175],
+	"offsetsFlipWhenEnemy": true,
+    "offsetsFlipWhenPlayer": false,
+    "positionOffset": [40, 70],
+    "graphicSize": 1,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "idle0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

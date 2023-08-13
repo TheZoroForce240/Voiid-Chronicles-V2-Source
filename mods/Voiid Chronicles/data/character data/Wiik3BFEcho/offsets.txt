@@ -1,0 +1,17 @@
+singDOWN 191 -76
+singLEFTmiss -29 -19
+dodgeUP 19 -24
+dodgeRIGHT 18 -25
+blockLEFT -34 -28
+idle -34 -28
+singLEFT 197 -10
+singUPmiss -29 -19
+blockUP -31 -27
+singRIGHTmiss -29 -19
+singUP 199 -22
+dodgeDOWN 46 -66
+singRIGHT 204 -34
+singDOWNmiss -29 -19
+dodgeLEFT 46 -66
+blockDOWN -18 -28
+blockRIGHT -31 -26

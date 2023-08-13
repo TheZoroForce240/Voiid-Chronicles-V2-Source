@@ -1,0 +1,79 @@
+{
+	"character_Positions": [
+		[
+			1527,
+			798
+		],
+		[
+			452,
+			788
+		],
+		[
+			3507,
+			2258
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-342,
+				-431
+			],
+			"scroll_Factor": [
+				0.9,
+				0.9
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "skyrocks",
+			"alpha": 1
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-312,
+				-396
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "rocks"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-402,
+				-441
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 0.8,
+			"file_Name": "lights2",
+			"alpha": 1,
+			"layer": "foreground"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-317,
+				-386
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "ruido",
+			"layer": "foreground"
+		}
+	],
+	"camera_Zoom": 0.8
+}

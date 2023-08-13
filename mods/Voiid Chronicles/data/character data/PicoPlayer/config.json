@@ -1,0 +1,66 @@
+{
+    "defaultFlipX": true,
+    "cameraOffset": [-200, -25],
+    "dancesLeftAndRight": false,
+    "imagePath": "PicoPlayer",
+    "spritesheetType": "SPARROW",
+    "barColor": [205, 229, 112],
+	"offsetsFlipWhenEnemy": true,
+    "offsetsFlipWhenPlayer": false,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "Pico Idle Dance0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "Pico Note Right0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "Pico Down Note0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "pico Up note0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "Pico NOTE LEFT0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFTmiss",
+            "animation_name": "Pico Note Right Miss0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWNmiss",
+            "animation_name": "Pico Down Note MISS0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUPmiss",
+            "animation_name": "pico Up note miss0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHTmiss",
+            "animation_name": "Pico NOTE LEFT miss0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

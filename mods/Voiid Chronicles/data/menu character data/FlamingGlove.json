@@ -1,0 +1,9 @@
+{
+    "Animation_Name": "idle00",
+    "Animation_Looped": true,
+    "FPS": 24,
+    "Size": 1.75,
+    "Offsets": [350, 100],
+    "File_Name": "FlamingGlove",
+    "Flipped": false
+}

@@ -1,0 +1,14 @@
+dodgeDOWN 56 -46
+singDOWN -11 -57
+singRIGHTmiss 14 -8
+dodgeUP 1 -4
+singLEFTmiss -50 -1
+singUP -32 43
+idle -4 -6
+dodgeRIGHT -51 -36
+singDOWNmiss -13 -48
+singRIGHT 8 -11
+dodgeLEFT 9 -43
+singUPmiss -36 47
+singLEFT -48 -9
+dodge 0 -4

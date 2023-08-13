@@ -1,0 +1,20 @@
+Light It Up:Wiik1VoiidMatt:1:Voiid:#282828:Wiik_1
+Ruckus:Wiik1VoiidMatt:1:Voiid:#282828:Wiik_1
+Target Practice:Wiik1VoiidMatt:1:Voiid:#282828:Wiik_1
+Burnout:Wiik2VoiidMatt:2:Voiid:#6A009B:Wiik_2
+Sporting:Wiik2VoiidMatt:2:Voiid:#6A009B:Wiik_2
+Boxing Match:Wiik2VoiidMatt:2:Voiid:#6A009B:Wiik_2
+Sport Swinging:Wiik2VoiidMatt:2:Voiid:#6A009B:Wiik_2
+Boxing Gladiators:Wiik2VoiidMatt:2:Voiid:#6A009B:Wiik_2
+Flaming Glove:FlamingGloveMatt:3:Voiid:#420049:FG
+Fisticuffs:Wiik3VoiidMatt:5:Voiid:#6A009B:Wiik_3
+Blastout:Wiik3VoiidMatt:5:Voiid:#6A009B:Wiik_3
+Immortal:Wiik3VoiidMatt:5:Voiid:#6A009B:Wiik_3
+King Hit:Wiik3VoiidMatt:5:Voiid:#6A009B:Wiik_3
+TKO:Wiik3VoiidMatt:5:Voiid:#6A009B:TKO
+Mat:Wiik100VoiidMatt:2:Voiid:#6A009B:Wiik_100
+Banger:Wiik100VoiidMatt:2:Voiid:#6A009B:Wiik_100
+Edgy:Wiik100VoiidMatt:2:Voiid:#6A009B:Wiik_100
+Alter Ego:AlterEgo-Icons:1:Voiid:#F43043:Alter_Ego
+Rejected:Rejected:1:Voiid:#222222:Rejected
+Voiid Rush:Wiik1VoiidMatt:1:Voiid:#282828

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="WallAnimated.png">
+  <!-- Created with Adobe Animate version 21.0.0.35450 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="WallAnimated0000" x="0" y="0" width="1900" height="850" frameX="0" frameY="-85" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0001" x="0" y="0" width="1900" height="850" frameX="0" frameY="-84.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0002" x="0" y="0" width="1900" height="850" frameX="0" frameY="-84" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0003" x="0" y="0" width="1900" height="850" frameX="0" frameY="-83" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0004" x="0" y="0" width="1900" height="850" frameX="0" frameY="-81.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0005" x="0" y="0" width="1900" height="850" frameX="0" frameY="-79.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0006" x="0" y="0" width="1900" height="850" frameX="0" frameY="-77" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0007" x="0" y="0" width="1900" height="850" frameX="0" frameY="-74" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0008" x="0" y="0" width="1900" height="850" frameX="0" frameY="-71" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0009" x="0" y="0" width="1900" height="850" frameX="0" frameY="-67" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0010" x="0" y="0" width="1900" height="850" frameX="0" frameY="-63" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0011" x="0" y="0" width="1900" height="850" frameX="0" frameY="-58.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0012" x="0" y="0" width="1900" height="850" frameX="0" frameY="-53.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0013" x="0" y="0" width="1900" height="850" frameX="0" frameY="-48" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0014" x="0" y="0" width="1900" height="850" frameX="0" frameY="-42.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0015" x="0" y="0" width="1900" height="850" frameX="0" frameY="-36.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0016" x="0" y="0" width="1900" height="850" frameX="0" frameY="-31" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0017" x="0" y="0" width="1900" height="850" frameX="0" frameY="-26" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0018" x="0" y="0" width="1900" height="850" frameX="0" frameY="-21.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0019" x="0" y="0" width="1900" height="850" frameX="0" frameY="-17.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0020" x="0" y="0" width="1900" height="850" frameX="0" frameY="-13.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0021" x="0" y="0" width="1900" height="850" frameX="0" frameY="-10.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0022" x="0" y="0" width="1900" height="850" frameX="0" frameY="-7.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0023" x="0" y="0" width="1900" height="850" frameX="0" frameY="-5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0024" x="0" y="0" width="1900" height="850" frameX="0" frameY="-3" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0025" x="0" y="0" width="1900" height="850" frameX="0" frameY="-1.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0026" x="0" y="0" width="1900" height="850" frameX="0" frameY="-0.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0027" x="0" y="0" width="1900" height="850" frameX="0" frameY="0" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0028" x="0" y="0" width="1900" height="850" frameX="0" frameY="0" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0029" x="0" y="0" width="1900" height="850" frameX="0" frameY="0" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0030" x="0" y="0" width="1900" height="850" frameX="0" frameY="-0.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0031" x="0" y="0" width="1900" height="850" frameX="0" frameY="-2" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0032" x="0" y="0" width="1900" height="850" frameX="0" frameY="-3.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0033" x="0" y="0" width="1900" height="850" frameX="0" frameY="-5.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0034" x="0" y="0" width="1900" height="850" frameX="0" frameY="-8" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0035" x="0" y="0" width="1900" height="850" frameX="0" frameY="-11" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0036" x="0" y="0" width="1900" height="850" frameX="0" frameY="-14.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0037" x="0" y="0" width="1900" height="850" frameX="0" frameY="-18.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0038" x="0" y="0" width="1900" height="850" frameX="0" frameY="-23" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0039" x="0" y="0" width="1900" height="850" frameX="0" frameY="-28" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0040" x="0" y="0" width="1900" height="850" frameX="0" frameY="-33.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0041" x="0" y="0" width="1900" height="850" frameX="0" frameY="-39" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0042" x="0" y="0" width="1900" height="850" frameX="0" frameY="-45.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0043" x="0" y="0" width="1900" height="850" frameX="0" frameY="-51" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0044" x="0" y="0" width="1900" height="850" frameX="0" frameY="-56.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0045" x="0" y="0" width="1900" height="850" frameX="0" frameY="-61.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0046" x="0" y="0" width="1900" height="850" frameX="0" frameY="-66" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0047" x="0" y="0" width="1900" height="850" frameX="0" frameY="-70" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0048" x="0" y="0" width="1900" height="850" frameX="0" frameY="-73.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0049" x="0" y="0" width="1900" height="850" frameX="0" frameY="-76.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0050" x="0" y="0" width="1900" height="850" frameX="0" frameY="-79" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0051" x="0" y="0" width="1900" height="850" frameX="0" frameY="-81" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0052" x="0" y="0" width="1900" height="850" frameX="0" frameY="-82.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0053" x="0" y="0" width="1900" height="850" frameX="0" frameY="-84" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0054" x="0" y="0" width="1900" height="850" frameX="0" frameY="-84.5" frameWidth="1900" frameHeight="935" />
+  <SubTexture name="WallAnimated0055" x="0" y="0" width="1900" height="850" frameX="0" frameY="-85" frameWidth="1900" frameHeight="935" />
+</TextureAtlas>

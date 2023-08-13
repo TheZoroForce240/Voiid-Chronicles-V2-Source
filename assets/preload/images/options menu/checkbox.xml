@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="New_Checkbox.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Checked0000" x="0" y="0" width="98" height="95"/>
+	<SubTexture name="Checked0001" x="98" y="0" width="98" height="95"/>
+	<SubTexture name="Checked0002" x="196" y="0" width="98" height="95"/>
+	<SubTexture name="Checked0003" x="294" y="0" width="98" height="95"/>
+	<SubTexture name="Checked0004" x="392" y="0" width="98" height="95"/>
+	<SubTexture name="Checked0005" x="0" y="95" width="98" height="95"/>
+	<SubTexture name="Checked0006" x="392" y="0" width="98" height="95"/>
+	<SubTexture name="Checked0007" x="294" y="0" width="98" height="95"/>
+	<SubTexture name="Unchecked0000" x="98" y="95" width="94" height="90"/>
+	<SubTexture name="Unchecked0001" x="98" y="95" width="94" height="90"/>
+	<SubTexture name="Unchecked0002" x="192" y="95" width="94" height="90"/>
+	<SubTexture name="Unchecked0003" x="192" y="95" width="94" height="90"/>
+</TextureAtlas>

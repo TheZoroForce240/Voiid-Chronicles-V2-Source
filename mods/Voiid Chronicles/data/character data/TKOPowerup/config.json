@@ -1,0 +1,55 @@
+{
+    "defaultFlipX": false,
+    "cameraOffset": [0, -100],
+    "dancesLeftAndRight": false,
+    "imagePath": "Matt_TKO_POWERUP",
+    "spritesheetType": "SPARROW",
+    "barColor": [73,69,78],
+    "healthIcon": "Wiik3VoiidMatt",
+    "positionOffset": [70, 70],
+    "graphicSize": 1.5,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "destrans",
+            "animation_name": "destrans",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "trans",
+            "animation_name": "trans",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "left",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "down",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "up",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "right",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

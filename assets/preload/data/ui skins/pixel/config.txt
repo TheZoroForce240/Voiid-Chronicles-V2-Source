@@ -1,0 +1,8 @@
+globalScale:6
+comboScale:6
+noteScale:1
+aa:false
+ratingScale:0.7
+0.8
+splashes:0
+countdownScale:1

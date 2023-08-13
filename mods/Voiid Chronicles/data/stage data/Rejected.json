@@ -1,0 +1,105 @@
+{
+	"scriptName": "rejectedStage",
+	"character_Positions": [
+		[
+			2416,
+			2106
+		],
+		[
+			917,
+			2145
+		],
+		[
+			1625,
+			2091
+		]
+	],
+	"objects": [
+		{
+			"is_Animated": false,
+			"position": [
+				-1050,
+				-1107
+			],
+			"scroll_Factor": [
+				0.2,
+				0.2
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "BG"
+		},
+		{
+			"is_Animated": true,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.4,
+				0.4
+			],
+			"position": [
+				-599,
+				-1303
+			],
+			"file_Name": "Vortex",
+			"scale": 3,
+			"start_Animation": "vortex",
+			"animations": [
+				{
+					"animation_name": "vortex",
+					"looped": true,
+					"fps": 23,
+					"name": "vortex"
+				}
+			]
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-692,
+				-67
+			],
+			"scroll_Factor": [
+				0.75,
+				0.75
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "Island"
+		},
+		{
+			"is_Animated": false,
+			"position": [
+				-352,
+				-162
+			],
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "Main"
+		},
+		{
+			"is_Animated": false,
+			"layer": "foreground",
+			"position": [
+				-800,
+				-516
+			],
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"antialiased": true,
+			"scale": 1,
+			"file_Name": "ruido"
+		}
+	],
+	"character_Scrolls": [
+		1,
+		1,
+		1
+	],
+	"camera_Zoom": 0.45
+}

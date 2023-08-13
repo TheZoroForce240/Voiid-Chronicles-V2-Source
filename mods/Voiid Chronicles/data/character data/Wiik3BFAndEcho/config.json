@@ -1,0 +1,27 @@
+{
+    "cameraOffset": [0, 0],
+    "barColor": [255, 175, 175],
+    "healthIcon": "Wiik1BFRTX",
+    "characters": [
+        {
+            "name": "Wiik3BFRTX",
+            "positionOffset": [0,0]
+        },
+        {
+            "name": "Wiik3BFEcho",
+            "positionOffset": [6500,100]
+        },
+        {
+            "name": "Wiik3BFEcho",
+            "positionOffset": [6500,100]
+        },
+        {
+            "name": "Wiik3BFEcho",
+            "positionOffset": [6500,100]
+        },
+        {
+            "name": "Wiik3BFShieldEcho",
+            "positionOffset": [6500,50]
+        }
+    ]
+}

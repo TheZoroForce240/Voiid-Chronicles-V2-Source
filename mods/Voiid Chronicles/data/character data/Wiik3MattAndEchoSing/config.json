@@ -1,0 +1,27 @@
+{
+	"cameraOffset": [0, -310],
+    "barColor": [73,69,78],
+    "healthIcon": "Wiik3VoiidMatt",
+    "characters": [
+        {
+            "name": "Wiik3VoiidMattSing",
+            "positionOffset": [0,0]
+        },
+        {
+            "name": "Wiik3EchoMatt",
+            "positionOffset": [6500,100]
+        },
+        {
+            "name": "Wiik3EchoMatt",
+            "positionOffset": [6500,100]
+        },
+        {
+            "name": "Wiik3EchoMatt",
+            "positionOffset": [6500,100]
+        },
+        {
+            "name": "Wiik3ShieldEchoMatt",
+            "positionOffset": [50,50]
+        }
+    ]
+}

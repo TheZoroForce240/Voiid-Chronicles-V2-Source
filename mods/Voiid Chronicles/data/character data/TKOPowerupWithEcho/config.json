@@ -1,0 +1,15 @@
+{
+	"cameraOffset": [0, -310],
+    "barColor": [73,69,78],
+    "healthIcon": "Wiik3VoiidMatt",
+    "characters": [
+        {
+            "name": "Wiik3EchoMatt",
+            "positionOffset": [-20,20]
+        },
+        {
+            "name": "TKOPowerup",
+            "positionOffset": [0,35]
+        }
+    ]
+}

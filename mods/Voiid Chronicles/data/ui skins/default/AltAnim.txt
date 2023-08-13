@@ -1,0 +1,9 @@
+y:0
+charterX:0
+charterScaleY:40
+charterY:0
+charterScaleX:0
+affectedByColor:true
+x:0
+spriteName:default
+singAnimSuffix:-alt

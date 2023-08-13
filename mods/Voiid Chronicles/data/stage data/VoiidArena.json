@@ -1,0 +1,126 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.4,
+				1
+			],
+			"position": [
+				-500,
+				-200
+			],
+			"file_Name": "SKY",
+			"scale": 2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.4,
+				1
+			],
+			"position": [
+				-500,
+				-150
+			],
+			"file_Name": "WATER",
+			"scale": 2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.6,
+				1
+			],
+			"position": [
+				-500,
+				-150
+			],
+			"file_Name": "WAWA",
+			"scale": 2
+		},
+		{
+			"is_Animated": true,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.6,
+				1
+			],
+			"position": [
+				-500,
+				-200
+			],
+			"file_Name": "CROWD",
+			"scale": 2,
+			"animations": [
+				{
+					"animation_name": "Crowd_Animated0",
+					"looped": false,
+					"fps": 24,
+					"name": "beatHit2"
+				}
+			]
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.6,
+				1
+			],
+			"position": [
+				-500,
+				-150
+			],
+			"file_Name": "railing",
+			"scale": 2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-500,
+				-200
+			],
+			"file_Name": "FLOOR",
+			"scale": 2
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0,
+				0
+			],
+			"position": [
+				-500,
+				-200
+			],
+			"file_Name": "GRAIN",
+			"scale": 2,
+			"layer": "foreground"
+		}
+	],
+	"character_Positions": [
+		[
+			1173,
+			840
+		],
+		[
+			441,
+			810
+		],
+		[
+			781,
+			685
+		]
+	],
+	"camera_Zoom": 0.65
+}

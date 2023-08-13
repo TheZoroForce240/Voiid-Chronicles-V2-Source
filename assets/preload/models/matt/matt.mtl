@@ -1,0 +1,38 @@
+# Blender MTL File: 'None'
+# Material Count: 4
+
+newmtl hands
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000 
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000 
+d 1.000000
+illum 2
+map_Kd hands.png
+
+newmtl head_and_face
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000 
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000 
+d 1.000000
+illum 2
+map_Kd head_and_face.png
+
+newmtl matt_shirt
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000 
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000 
+d 1.000000
+illum 2
+map_Kd matt_shirt.png
+
+newmtl pants
+Ns 0.000000
+Ka 0.500000 0.500000 0.500000 
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000 
+d 1.000000
+illum 2
+map_Kd pants.png

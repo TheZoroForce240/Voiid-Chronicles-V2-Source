@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MattSlash.png">
+  <!-- Created with Adobe Animate version 21.0.0.35450 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="mattslash0000" x="0" y="0" width="612.054" height="462.87" frameX="-6.66" frameY="-125.208" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0001" x="612.054" y="0" width="621.378" height="462.87" frameX="-1.332" frameY="-125.208" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0002" x="1233.432" y="0" width="621.378" height="462.87" frameX="-1.332" frameY="-125.208" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0003" x="1854.81" y="0" width="621.378" height="462.87" frameX="-1.332" frameY="-125.208" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0004" x="2476.188" y="0" width="628.038" height="556.11" frameX="0" frameY="-31.968" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0005" x="3104.226" y="0" width="628.038" height="556.11" frameX="0" frameY="-31.968" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0006" x="3732.264" y="0" width="922.41" height="602.064" frameX="-187.146" frameY="0" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0007" x="3732.264" y="0" width="922.41" height="602.064" frameX="-187.146" frameY="0" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0008" x="0" y="602.064" width="920.412" height="562.104" frameX="-188.478" frameY="-38.628" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0009" x="0" y="602.064" width="920.412" height="562.104" frameX="-188.478" frameY="-38.628" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0010" x="920.412" y="602.064" width="918.414" height="556.776" frameX="-190.476" frameY="-43.956" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0011" x="1838.826" y="602.064" width="918.414" height="556.776" frameX="-190.476" frameY="-43.956" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0012" x="2757.24" y="602.064" width="819.846" height="506.826" frameX="-289.044" frameY="-93.906" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0013" x="2757.24" y="602.064" width="819.846" height="506.826" frameX="-289.044" frameY="-93.906" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0014" x="3577.086" y="602.064" width="817.182" height="445.554" frameX="-291.708" frameY="-155.178" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0015" x="3577.086" y="602.064" width="817.182" height="445.554" frameX="-291.708" frameY="-155.178" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0016" x="4394.268" y="602.064" width="817.182" height="445.554" frameX="-291.708" frameY="-155.178" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0017" x="0" y="1164.168" width="720.612" height="371.628" frameX="-388.278" frameY="-229.104" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0018" x="720.612" y="1164.168" width="720.612" height="371.628" frameX="-388.278" frameY="-229.104" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0019" x="1441.224" y="1164.168" width="720.612" height="371.628" frameX="-388.278" frameY="-229.104" frameWidth="1109.556" frameHeight="602.064" />
+  <SubTexture name="mattslash0020" x="0" y="1164.168" width="720.612" height="371.628" frameX="-388.278" frameY="-229.104" frameWidth="1109.556" frameHeight="602.064" />
+</TextureAtlas>

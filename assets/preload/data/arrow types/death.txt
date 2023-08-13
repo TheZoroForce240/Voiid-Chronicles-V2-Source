@@ -1,0 +1,5 @@
+shouldHit:false
+hitDamage:50000
+missDamage:0
+sustainMissDamage:0
+playMiss:false

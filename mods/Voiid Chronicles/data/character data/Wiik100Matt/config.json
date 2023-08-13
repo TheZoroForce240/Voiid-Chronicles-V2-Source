@@ -1,0 +1,56 @@
+{
+    "defaultFlipX": false,
+    "dancesLeftAndRight": false,
+    "imagePath": "voiid100",
+    "spritesheetType": "SPARROW",
+    "healthIcon" : "Wiik100VoiidMatt",
+    "positionOffset": [40, 140],
+    "barColor": [73,69,78],
+    "graphicSize": 1.5,
+    "cameraOffset": [80, -100],
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "voiid100 idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "idle-loop",
+            "animation_name": "voiid100 idle0",
+            "fps": 24,
+            "looped": true,
+            "indices": [16,17,18,19]
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "voiid100 left0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "voiid100 down0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "voiid100 up0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "voiid100 right0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "shoot",
+            "animation_name": "voiid100 shoot0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+singDOWN -23 -35
+singRIGHTmiss 28 5
+singUP -66 30
+singLEFTmiss -55 8
+hey -18 1
+idle -8 -7
+singRIGHT 24 -15
+singDOWNmiss -24 -34
+singUPmiss -65 31
+singLEFT -50 -5
+dodge 34 69
+dodgeLEFT 34 69
+dodgeDOWN 34 69
+dodgeUP 34 69
+dodgeRIGHT 34 69

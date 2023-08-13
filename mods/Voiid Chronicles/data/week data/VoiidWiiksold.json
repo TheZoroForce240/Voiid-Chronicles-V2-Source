@@ -1,0 +1,93 @@
+{
+    "groupName": "Voiid Chronicles",
+    "pathName": "voiidmatt",
+    "weeks": [
+        {
+            "imagePath": "wiik1",
+            "songs": [
+                "Light It Up",
+                "Ruckus",
+                "Target Practice"
+            ],
+            "characters": [
+                "Wiik1Matt",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "TRAINING LESSONS",
+            "difficulties": [
+                ["Voiid", "Voiid/hard"]
+            ]
+        },
+        {
+            "imagePath": "wiik2",
+            "songs": [
+                "Burnout",
+                "Sporting",
+                "Boxing Match"
+            ],
+            "characters": [
+			    "Wiik2Matt",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "you fucked up matts bussy ass",
+            "difficulties": [
+                ["Voiid", "Voiid/hard"]
+            ]
+        },
+        {
+            "imagePath": "flamingglove",
+            "songs": [
+                "Flaming Glove",
+                "Punch And Gun",
+                "Venom"
+            ],
+            "characters": [
+			    "FlamingGlove",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "fard extra!",
+            "difficulties": [
+                ["Voiid", "Voiid/hard"]
+            ]
+	    },
+        {
+            "imagePath": "Wiik3",
+            "songs": [
+                "Fisticuffs",
+				"Blastout",
+				"Immortal",
+				"King Hit"
+            ],
+            "characters": [
+			    "FlamingGlove",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "Wiik 3 Title",
+            "difficulties": [
+                ["Voiid", "Voiid/hard"]
+            ]
+		},
+        {
+            "imagePath": "SXM",
+            "songs": [
+                "Final Destination"
+            ],
+            "characters": [
+			    "FlamingGlove",
+                "bf",
+                "gf"
+            ],
+            "weekTitle": "SXM Title",
+            "difficulties": [
+                ["Voiid Mania", "Voiid/hard"],
+                ["Voiid Canon", "Voiid/hard"],
+                ["Voiid God Mania", "Voiid/hard"],
+                ["Voiid God", "Voiid/hard"]
+            ]
+		}
+    ]
+}

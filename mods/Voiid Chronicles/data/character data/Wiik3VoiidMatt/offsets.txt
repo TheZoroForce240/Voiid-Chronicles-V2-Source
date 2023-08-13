@@ -1,0 +1,15 @@
+blockUP -3 -7
+danceRight -3 -3
+singDOWN 2 -28
+fistThrow 240 40
+parryDOWN 126 -15
+singUP 4 -1
+danceLeft -3 -2
+parryUP 125 -5
+parryRIGHT 125 -7
+blockLEFT -3 -17
+singRIGHT -24 -16
+singLEFT -17 -10
+blockRIGHT -3 -7
+blockDOWN -4 -19
+parryLEFT 126 -15

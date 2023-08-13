@@ -1,0 +1,36 @@
+{
+    "defaultFlipX": false,
+    "cameraOffset": [40, -10],
+    "dancesLeftAndRight": false,
+    "imagePath": "ShieldStand_Matt",
+    "spritesheetType": "SPARROW",
+    "barColor": [73,69,78],
+    "positionOffset": [70, 70],
+    "graphicSize": 1.5,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "FadeIn0000",
+            "fps": 1,
+            "looped": false
+        },
+        {
+            "name": "FadeIn",
+            "animation_name": "FadeIn0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "FadeOut",
+            "animation_name": "FadeOut0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "idlemoment",
+            "animation_name": "idle0",
+            "fps": 24,
+            "looped": true
+        }
+    ]
+}

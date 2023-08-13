@@ -1,0 +1,58 @@
+{
+    "defaultFlipX": true,
+    "cameraOffset": [-100, -100],
+    "dancesLeftAndRight": false,
+    "imagePath": "ShieldStand_BF",
+    "spritesheetType": "SPARROW",
+    "barColor": [255, 175, 175],
+    "healthIcon": "Wiik1BFRTX",
+	"offsetsFlipWhenEnemy": true,
+    "offsetsFlipWhenPlayer": false,
+    "positionOffset": [70, 70],
+    "graphicSize": 1.5,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "BF Shield0",
+            "fps": 24,
+            "looped": true
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "BF Shield0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "BF Shield0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "BF Shield0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "BF Shield0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "fadeIn",
+            "animation_name": "BF Shield Fade In0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "fadeOut",
+            "animation_name": "BF Shield Fade Out0",
+            "fps": 24,
+            "looped": false
+        }
+        
+    ]
+}

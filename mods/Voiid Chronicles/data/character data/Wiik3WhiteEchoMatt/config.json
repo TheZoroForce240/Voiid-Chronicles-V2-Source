@@ -1,0 +1,42 @@
+{
+    "defaultFlipX": false,
+    "cameraOffset": [40, -10],
+    "dancesLeftAndRight": false,
+    "imagePath": "WhiteMattStand_Attack",
+    "spritesheetType": "SPARROW",
+    "barColor": [73,69,78],
+    "positionOffset": [70, 70],
+    "graphicSize": 1.5,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "attack0014",
+            "fps": 1,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "attack0",
+            "fps": 14,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "attack0",
+            "fps": 14,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "attack0",
+            "fps": 14,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "attack0",
+            "fps": 14,
+            "looped": false
+        }
+    ]
+}

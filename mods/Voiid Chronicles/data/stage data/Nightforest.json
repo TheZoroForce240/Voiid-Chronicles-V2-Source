@@ -1,0 +1,62 @@
+{
+	"objects": [
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				0.6,
+				0.6
+			],
+			"position": [
+				-342,
+				-331
+			],
+			"alpha": 1,
+			"file_Name": "sky",
+			"scale": 1
+		},
+		{
+			"is_Animated": false,
+			"antialiased": true,
+			"scroll_Factor": [
+				1,
+				1
+			],
+			"position": [
+				-312,
+				-396
+			],
+			"file_Name": "wawa",
+			"scale": 1
+		}
+	],
+	"character_Positions": [
+		[
+			1561,
+			710
+		],
+		[
+			1151,
+			798
+		],
+		[
+			3507,
+			2258
+		]
+	],
+	"camera_Zoom": 0.8,
+	"camera_Offsets": [
+		[
+			0,
+			-50
+		],
+		[
+			0,
+			-50
+		],
+		[
+			0,
+			0
+		]
+	]
+}

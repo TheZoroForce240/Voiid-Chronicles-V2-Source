@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SwordNote.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+
+	<SubTexture name="plus0000" x="100" y="0" width="169" height="177"/>
+	<SubTexture name="square0000" x="173" y="177" width="170" height="177"/>
+
+	<SubTexture name="down0000" x="100" y="0" width="169" height="177"/>
+	<SubTexture name="left0000" x="269" y="0" width="173" height="175"/>
+	<SubTexture name="right0000" x="0" y="177" width="173" height="174"/>
+	<SubTexture name="up0000" x="173" y="177" width="170" height="177"/>
+
+	<SubTexture name="down20000" x="100" y="0" width="169" height="177"/>
+	<SubTexture name="left20000" x="269" y="0" width="173" height="175"/>
+	<SubTexture name="right20000" x="0" y="177" width="173" height="174"/>
+	<SubTexture name="up20000" x="173" y="177" width="170" height="177"/>
+
+	<SubTexture name="rdown0000" x="100" y="0" width="169" height="177"/>
+	<SubTexture name="rleft0000" x="269" y="0" width="173" height="175"/>
+	<SubTexture name="rright0000" x="0" y="177" width="173" height="174"/>
+	<SubTexture name="rup0000" x="173" y="177" width="170" height="177"/>
+
+	<SubTexture name="rdown20000" x="100" y="0" width="169" height="177"/>
+	<SubTexture name="rleft20000" x="269" y="0" width="173" height="175"/>
+	<SubTexture name="rright20000" x="0" y="177" width="173" height="174"/>
+	<SubTexture name="rup20000" x="173" y="177" width="170" height="177"/>
+
+	<SubTexture name="down hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="down hold end0000" x="50" y="0" width="50" height="64"/>
+
+	<SubTexture name="left hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="left hold end0000" x="50" y="0" width="50" height="64"/>
+		
+	<SubTexture name="up hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="up hold end0000" x="50" y="0" width="50" height="64"/>
+		
+	<SubTexture name="right hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="right hold end0000" x="50" y="0" width="50" height="64"/>
+
+	<SubTexture name="down2 hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="down2 hold end0000" x="50" y="0" width="50" height="64"/>
+
+	<SubTexture name="left2 hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="left2 hold end0000" x="50" y="0" width="50" height="64"/>
+		
+	<SubTexture name="up2 hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="up2 hold end0000" x="50" y="0" width="50" height="64"/>
+		
+	<SubTexture name="right2 hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="right2 hold end0000" x="50" y="0" width="50" height="64"/>
+
+	<SubTexture name="rdown hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="rdown hold end0000" x="50" y="0" width="50" height="64"/>
+
+	<SubTexture name="rleft hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="rleft hold end0000" x="50" y="0" width="50" height="64"/>
+		
+	<SubTexture name="rup hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="rup hold end0000" x="50" y="0" width="50" height="64"/>
+		
+	<SubTexture name="rright hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="rright hold end0000" x="50" y="0" width="50" height="64"/>
+
+	<SubTexture name="rdown2 hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="rdown2 hold end0000" x="50" y="0" width="50" height="64"/>
+
+	<SubTexture name="rleft2 hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="rleft2 hold end0000" x="50" y="0" width="50" height="64"/>
+		
+	<SubTexture name="rup2 hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="rup2 hold end0000" x="50" y="0" width="50" height="64"/>
+		
+	<SubTexture name="rright2 hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="rright2 hold end0000" x="50" y="0" width="50" height="64"/>
+		
+	<SubTexture name="square hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="square hold end0000" x="50" y="0" width="50" height="64"/>
+		
+	<SubTexture name="plus hold0000" x="0" y="0" width="50" height="44"/>
+	<SubTexture name="plus hold end0000" x="50" y="0" width="50" height="64"/>
+</TextureAtlas>

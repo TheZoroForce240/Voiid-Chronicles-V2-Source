@@ -1,0 +1,43 @@
+{
+    "defaultFlipX": false,
+    "cameraOffset": [-85, -200],
+    "dancesLeftAndRight": false,
+    "imagePath": "WIIK_3_SING_MATT",
+    "healthIcon": "Wiik3VoiidMatt",
+    "spritesheetType": "SPARROW",
+    "barColor": [73,69,78],
+    "positionOffset": [80, 120],
+    "graphicSize": 1.5,
+    "animations": [
+        {
+            "name": "idle",
+            "animation_name": "matt idle0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "matt left note0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "matt down note0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "matt up note0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "matt right note0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

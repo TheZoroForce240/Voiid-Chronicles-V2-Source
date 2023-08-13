@@ -1,0 +1,7 @@
+trans 110 260
+idle 0 100
+singRIGHT 46 84
+singDOWN -38 72
+destrans 0 70
+singLEFT 73 110
+singUP 4 129

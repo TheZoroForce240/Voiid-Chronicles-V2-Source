@@ -1,0 +1,13 @@
+blockUP -23 -37
+singDOWN 35 -33
+singUP 94 -31
+parryDOWN -25 -42
+parryUP -25 -35
+idle 0 0
+parryRIGHT -25 -31
+blockLEFT -23 -37
+singRIGHT -4 -37
+singLEFT -17 -31
+parryLEFT -19 -33
+blockDOWN -24 -34
+blockRIGHT -23 -32

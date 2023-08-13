@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Matt_Wiik_3_RTX.png">
+  <!-- Created with Adobe Animate version 21.0.0.35450 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="Matt Attack FistThrow0000" x="4734.594" y="0" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0001" x="4734.594" y="0" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0002" x="0" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0003" x="567.432" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0004" x="1134.864" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0005" x="1134.864" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0006" x="1134.864" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0007" x="1702.296" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0008" x="2269.728" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0009" x="2837.16" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0010" x="2837.16" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0011" x="3404.592" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0012" x="3972.024" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0013" x="4539.456" y="309.024" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0014" x="0" y="618.048" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0015" x="0" y="618.048" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0016" x="567.432" y="618.048" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0017" x="1134.864" y="618.048" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0018" x="1702.296" y="618.048" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0019" x="1702.296" y="618.048" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0020" x="2269.728" y="618.048" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0021" x="2269.728" y="618.048" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0022" x="2269.728" y="618.048" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0023" x="2269.728" y="618.048" width="567.432" height="309.024" />
+  <SubTexture name="Matt Attack FistThrow0024" x="2269.728" y="618.048" width="567.432" height="309.024" />
+  <SubTexture name="attackdown0000" x="2837.16" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0001" x="3195.468" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0002" x="3195.468" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0003" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0004" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0005" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0006" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0007" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0008" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0009" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0010" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0011" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0012" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0013" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0014" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0015" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0016" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0017" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0018" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0019" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0020" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0021" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0022" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackdown0023" x="3553.776" y="618.048" width="358.308" height="261.072" />
+  <SubTexture name="attackleft0000" x="0" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0001" x="404.928" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0002" x="809.856" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0003" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0004" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0005" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0006" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0007" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0008" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0009" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0010" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0011" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0012" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0013" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0014" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0015" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0016" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0017" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0018" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0019" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0020" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0021" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0022" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackleft0023" x="1214.784" y="0" width="404.928" height="273.06" />
+  <SubTexture name="attackright0000" x="3912.084" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0001" x="4346.316" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0002" x="4346.316" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0003" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0004" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0005" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0006" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0007" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0008" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0009" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0010" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0011" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0012" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0013" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0014" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0015" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0016" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0017" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0018" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0019" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0020" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0021" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0022" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackright0023" x="4780.548" y="618.048" width="434.232" height="269.064" />
+  <SubTexture name="attackup0000" x="1619.712" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0001" x="2007.99" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0002" x="2007.99" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0003" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0004" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0005" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0006" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0007" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0008" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0009" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0010" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0011" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0012" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0013" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0014" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0015" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0016" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0017" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0018" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0019" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0020" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0021" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0022" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="attackup0023" x="2396.268" y="0" width="388.278" height="279.054" />
+  <SubTexture name="blockdown0000" x="5214.78" y="618.048" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0001" x="0" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0002" x="0" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0003" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0004" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0005" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0006" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0007" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0008" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0009" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0010" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0011" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0012" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0013" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0014" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0015" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0016" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0017" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0018" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0019" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockdown0020" x="235.764" y="927.072" width="235.764" height="267.066" />
+  <SubTexture name="blockleft0000" x="471.528" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0001" x="706.626" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0002" x="706.626" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0003" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0004" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0005" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0006" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0007" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0008" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0009" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0010" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0011" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0012" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0013" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0014" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0015" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0016" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0017" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0018" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0019" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockleft0020" x="941.724" y="927.072" width="235.098" height="268.398" />
+  <SubTexture name="blockright0000" x="1176.822" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0001" x="1407.924" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0002" x="1407.924" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0003" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0004" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0005" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0006" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0007" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0008" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0009" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0010" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0011" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0012" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0013" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0014" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0015" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0016" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0017" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0018" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0019" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockright0020" x="1639.026" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0000" x="1870.128" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0001" x="2101.23" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0002" x="2101.23" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0003" x="2332.332" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0004" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0005" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0006" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0007" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0008" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0009" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0010" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0011" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0012" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0013" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0014" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0015" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0016" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0017" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0018" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0019" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="blockup0020" x="2563.434" y="927.072" width="231.102" height="275.058" />
+  <SubTexture name="idle0000" x="2784.546" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0001" x="2784.546" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0002" x="3028.302" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0003" x="3028.302" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0004" x="3272.058" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0005" x="3272.058" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0006" x="3515.814" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0007" x="3515.814" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0008" x="3759.57" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0009" x="3759.57" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0010" x="4003.326" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0011" x="4003.326" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0012" x="4247.082" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0013" x="4247.082" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0014" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0015" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0016" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0017" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0018" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0019" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0020" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0021" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0022" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0023" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0024" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0025" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0026" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle0027" x="4490.838" y="0" width="243.756" height="278.388" />
+  <SubTexture name="idle20000" x="2794.536" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20001" x="2794.536" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20002" x="3042.288" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20003" x="3042.288" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20004" x="3290.04" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20005" x="3290.04" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20006" x="3537.792" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20007" x="3537.792" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20008" x="3785.544" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20009" x="3785.544" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20010" x="4033.296" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20011" x="4033.296" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20012" x="4281.048" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="idle20013" x="4281.048" y="927.072" width="247.752" height="277.722" />
+  <SubTexture name="parrydown0000" x="4528.8" y="927.072" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0001" x="4861.134" y="927.072" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0002" x="0" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0003" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0004" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0005" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0006" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0007" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0008" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0009" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0010" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0011" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0012" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0013" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0014" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0015" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0016" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0017" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0018" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0019" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parrydown0020" x="332.334" y="1244.754" width="332.334" height="317.682" />
+  <SubTexture name="parryup0000" x="664.668" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0001" x="1024.974" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0002" x="1385.28" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0003" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0004" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0005" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0006" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0007" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0008" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0009" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0010" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0011" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0012" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0013" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0014" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0015" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0016" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0017" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0018" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0019" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+  <SubTexture name="parryup0020" x="1745.586" y="1244.754" width="360.306" height="323.01" />
+</TextureAtlas>

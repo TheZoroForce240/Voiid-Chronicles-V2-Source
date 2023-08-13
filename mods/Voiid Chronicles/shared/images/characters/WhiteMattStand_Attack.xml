@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="EchoMattAttack.png">
+  <!-- Created with Adobe Animate version 21.0.0.35450 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="attack0000" x="0" y="0" width="820.512" height="376.29" />
+  <SubTexture name="attack0001" x="820.512" y="0" width="820.512" height="376.29" />
+  <SubTexture name="attack0002" x="1641.024" y="0" width="820.512" height="376.29" />
+  <SubTexture name="attack0003" x="1641.024" y="0" width="820.512" height="376.29" />
+  <SubTexture name="attack0004" x="0" y="376.29" width="820.512" height="376.29" />
+  <SubTexture name="attack0005" x="0" y="376.29" width="820.512" height="376.29" />
+  <SubTexture name="attack0006" x="820.512" y="376.29" width="820.512" height="376.29" />
+  <SubTexture name="attack0007" x="1641.024" y="376.29" width="820.512" height="376.29" />
+  <SubTexture name="attack0008" x="0" y="752.58" width="820.512" height="376.29" />
+  <SubTexture name="attack0009" x="820.512" y="752.58" width="820.512" height="376.29" />
+  <SubTexture name="attack0010" x="1641.024" y="752.58" width="820.512" height="376.29" />
+  <SubTexture name="attack0011" x="0" y="1128.87" width="820.512" height="376.29" />
+  <SubTexture name="attack0012" x="820.512" y="1128.87" width="820.512" height="376.29" />
+  <SubTexture name="attack0013" x="1641.024" y="1128.87" width="820.512" height="376.29" />
+  <SubTexture name="attack0014" x="0" y="1505.16" width="820.512" height="376.29" />
+</TextureAtlas>

@@ -1,0 +1,26 @@
+{
+    "defaultFlipX": true,
+    "dancesLeftAndRight": false,
+    "imagePath": "bf1",
+    "spritesheetType": "SPARROW",
+    "animations": [
+        {
+            "name": "firstDeath",
+            "animation_name": "BF dies instancia 1",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "deathLoop",
+            "animation_name": "BF Dead Loop instancia 1",
+            "fps": 24,
+            "looped": true
+        },
+        {
+            "name": "deathConfirm",
+            "animation_name": "BF Dead confirm instancia 1",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}

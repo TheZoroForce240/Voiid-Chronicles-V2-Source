@@ -1,0 +1,29 @@
+toggle bg dim on~nothing~nothing
+toggle bg dim off~nothing~nothing
+camera rotate on~rotCamSpd ~rotCamRange
+hud rotate on~rotCamSpd ~rotCamRange
+rotate shit~rotCamSpd ~rotCamRange
+ca burst~chromatic aberration strength (use small values, < 0.01)~max number to limit it
+punch~count(1-3)~beats inbetween punches
+slash~count(1-3)~beats inbetween slashes
+vignette~strength(default = 1)~size(default = 0, use numbers between 0-1)
+change camera speed~speed~nothing lol
+change camera zoom speed~speed~nothing lol
+black bars~height (0 = default)~type (0 = default, 1 = move strums, 2 = place under hud)
+flashImage~image~time
+uno~type 1 if god version~
+dos~type 1 if god version~
+tres~type 1 if god version~
+cuatro~type 1 if god version~
+gato~~
+change block state~state (look at blockStuff.lua lol)~
+brightness sine~speed~range
+set brightness~brightness(default = 0)~
+set contrast~contrast(default = 1)~
+toggle matt echo trail~nothing (only works on wiik 3 songs that have the blocking!!!)~
+toggle bf echo trail~nothing (only works on wiik 3 songs that have the blocking!!!)~
+flip echo direction~nothing, just toggles the direction on which side echos come from~
+2~~
+1~~
+go~~
+colorfill~charRed,charGreen,charBlue,bgRed,bgGreen,bgBlue~time,ease (example: value1 = "255,255,255,0,0,0" value2 = "2,cubeIn"), if theres an already active color fill it will go back to normal

@@ -1,0 +1,7 @@
+y:0
+charterX:0
+charterScaleY:40
+charterY:0
+charterScaleX:0
+affectedByColor:false
+x:50

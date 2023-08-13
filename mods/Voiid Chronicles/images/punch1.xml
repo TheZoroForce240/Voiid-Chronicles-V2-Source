@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="punch1.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="punch10000" x="0" y="0" width="501" height="337"/>
+	<SubTexture name="punch10001" x="501" y="0" width="501" height="337"/>
+	<SubTexture name="punch10002" x="0" y="337" width="501" height="337"/>
+	<SubTexture name="punch10003" x="501" y="337" width="501" height="337"/>
+	<SubTexture name="punch10004" x="0" y="674" width="501" height="337"/>
+	<SubTexture name="punch10005" x="0" y="674" width="501" height="337"/>
+	<SubTexture name="punch10006" x="501" y="674" width="501" height="337"/>
+	<SubTexture name="punch10007" x="501" y="674" width="501" height="337"/>
+	<SubTexture name="punch10008" x="501" y="674" width="501" height="337"/>
+	<SubTexture name="punch10009" x="501" y="674" width="501" height="337"/>
+	<SubTexture name="punch10010" x="501" y="674" width="501" height="337"/>
+	<SubTexture name="punch10011" x="501" y="674" width="501" height="337"/>
+	<SubTexture name="punch10012" x="501" y="674" width="501" height="337"/>
+	<SubTexture name="punch10013" x="501" y="674" width="501" height="337"/>
+</TextureAtlas>

@@ -1,0 +1,326 @@
+{
+    "sections": [
+        {
+            "imageName": "Directors",
+            "people": [
+                {
+                    "name": "LordVoiid",
+                    "icon": "voiid",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@lordvoiidofficial",
+                    "desc": "Mod Owner, Musician,\nArtist, Animator\n"
+                },
+                {
+                    "name": "RhysRJJ",
+                    "icon": "rhys",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@RhysRJJ",
+                    "desc": "Co-Director, Charter, Coder"
+                }
+            ]
+        },
+        {
+            "imageName": "Musicians",
+            "people": [
+                {
+                    "name": "LordVoiid",
+                    "icon": "voiid",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@lordvoiidofficial",
+                    "desc": "Mod Owner, Musician,\nArtist, Animator\n"
+                },
+                {
+                    "name": "DeltaMoai",
+                    "icon": "delta",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@Delta_Fr",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Hippo0824",
+                    "icon": "hippo",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@hippo0824music",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "ImPaper",
+                    "icon": "impaper",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@ImPaperDS",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Invalid_bruh",
+                    "icon": "invalid",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@invalid_bruh359",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Joa",
+                    "icon": "joa",
+                    "iconScale": 0.5,
+                    "link": "https://www.youtube.com/@joa1597",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "LegendaryPlz",
+                    "icon": "legendary",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/channel/UCHLJZ4-h11jryvvv1vHYXng",
+                    "desc": "Menu Music"
+                },
+                {
+                    "name": "Spring",
+                    "icon": "spring",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@spring0-",
+                    "desc": "Menu Music"
+                },
+                {
+                    "name": "MLOM",
+                    "icon": "mlom",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@mlomofficial",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Revilo",
+                    "icon": "revilo",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@revkindaslumpy",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Singular",
+                    "icon": "singular",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@singular_m16",
+                    "desc": "Musician"
+                },
+                {
+                    "name": "Ushear",
+                    "icon": "ushear",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@Ushearr",
+                    "desc": "Charter, Musician"
+                },
+                {
+                    "name": "Fallnnn",
+                    "icon": "fallnnn",
+                    "iconScale": 2.3,
+                    "link": "https://www.youtube.com/@Fallnnn",
+                    "desc": "Average Voiid Song, V1 Concept Artist"
+                },
+                {
+                    "name": "Masker",
+                    "icon": "masker",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Wiik 100 BG, Game over music"
+                }
+            ]
+        },
+        {
+            "imageName": "Artists",
+            "people": [
+                {
+                    "name": "LordVoiid",
+                    "icon": "voiid",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@lordvoiidofficial",
+                    "desc": "Mod Owner, Musician,\nArtist, Animator\n"
+                },
+                {
+                    "name": "JayD",
+                    "icon": "jayd",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "Haze",
+                    "icon": "haze",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "Oddestial/Dane",
+                    "icon": "dane",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@oddestial",
+                    "desc": "Artist, Animator"
+                },
+                {
+                    "name": "Noicy",
+                    "icon": "noicy",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "Masker",
+                    "icon": "masker",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Wiik 100 BG, Game over music"
+                },
+                {
+                    "name": "Paciofd",
+                    "icon": "paciofd",
+                    "iconScale": 0.7,
+                    "link": "https://twitter.com/paciofdd?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+                    "desc": "V1.5 Promo Art"
+                },
+                {
+                    "name": "VoiidicMelody",
+                    "icon": "mel",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist, Animator"
+                },
+                {
+                    "name": "Spike",
+                    "icon": "spike",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Menu Artist"
+                },
+                {
+                    "name": "SubSilent",
+                    "icon": "silent",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Credit Icons/Menu Artist"
+                },
+                {
+                    "name": "Constellations",
+                    "icon": "const",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist"
+                },
+                {
+                    "name": "ShagLSSJ",
+                    "icon": "shag",
+                    "iconScale": 2.3,
+                    "link": "https://twitter.com/shagLSSJ",
+                    "desc": "Icon Artist"
+                },
+                {
+                    "name": "Fallnnn",
+                    "icon": "fallnnn",
+                    "iconScale": 2.3,
+                    "link": "https://www.youtube.com/@Fallnnn",
+                    "desc": "Average Voiid Song\nV1 Concept Artist\n"
+                },
+                {
+                    "name": "SalvaElJaparo",
+                    "icon": "salva",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Wiik 1 Crowd Artist"
+                }
+            ]
+        },
+        {
+            "imageName": "Animators",
+            "people": [
+                {
+                    "name": "LordVoiid",
+                    "icon": "voiid",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@lordvoiidofficial",
+                    "desc": "Mod Owner, Musician,\nArtist, Animator\n"
+                },
+                {
+                    "name": "VoiidicMelody",
+                    "icon": "mel",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Artist, Animator"
+                },
+                {
+                    "name": "Oddestial/Dane",
+                    "icon": "dane",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@oddestial",
+                    "desc": "Artist, Animator"
+                }
+            ]
+        },
+        {
+            "imageName": "Charters",
+            "people": [
+                {
+                    "name": "RhysRJJ",
+                    "icon": "rhys",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@RhysRJJ",
+                    "desc": "Co-Director, Charter, Coder"
+                },
+                {
+                    "name": "ScottFlux",
+                    "icon": "scott",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Charter"
+                },
+                {
+                    "name": "Official_YS",
+                    "icon": "ys",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@JohnZackYT",
+                    "desc": "Charter"
+                },
+                {
+                    "name": "Ushear",
+                    "icon": "ushear",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@Ushearr",
+                    "desc": "Charter, Musician"
+                },
+                {
+                    "name": "Diegobruv",
+                    "icon": "bruvdiego",
+                    "iconScale": 0.7,
+                    "link": "",
+                    "desc": "Charter"
+                }
+            ]
+        },
+        {
+            "imageName": "Coders",
+            "people": [
+                {
+                    "name": "RhysRJJ",
+                    "icon": "rhys",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@RhysRJJ",
+                    "desc": "Co-Director, Charter, Coder"
+                },
+                {
+                    "name": "TheZoroForce240",
+                    "icon": "zoro",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/@TheZoroForce240",
+                    "desc": "Coder"
+                }
+            ]
+        },
+        {
+            "imageName": "Others",
+            "people": [
+                {
+                    "name": "Cosmos",
+                    "icon": "cosmos",
+                    "iconScale": 0.7,
+                    "link": "https://www.youtube.com/channel/UC_r_84fv541H2O29w4vIqkA",
+                    "desc": "V2 Trailer"
+                }
+            ]
+        }
+    ]
+}

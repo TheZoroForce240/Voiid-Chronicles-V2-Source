@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Wiik_2_Echo.png">
+  <!-- Created with Adobe Animate version 21.0.0.35450 -->
+  <!-- http://www.adobe.com/products/animate.html -->
+  <SubTexture name="attack0000" x="0" y="0" width="323.01" height="354.978" />
+  <SubTexture name="attack0001" x="323.01" y="0" width="323.01" height="354.978" />
+  <SubTexture name="attack0002" x="646.02" y="0" width="323.01" height="354.978" />
+  <SubTexture name="attack0003" x="969.03" y="0" width="323.01" height="354.978" />
+  <SubTexture name="attack0004" x="1292.04" y="0" width="323.01" height="354.978" />
+  <SubTexture name="attack0005" x="1615.05" y="0" width="323.01" height="354.978" />
+  <SubTexture name="attack0006" x="1938.06" y="0" width="323.01" height="354.978" />
+  <SubTexture name="attack0007" x="2261.07" y="0" width="323.01" height="354.978" />
+  <SubTexture name="attack0008" x="0" y="354.978" width="323.01" height="354.978" />
+  <SubTexture name="attack0009" x="323.01" y="354.978" width="323.01" height="354.978" />
+  <SubTexture name="attack0010" x="646.02" y="354.978" width="323.01" height="354.978" />
+  <SubTexture name="attack0011" x="969.03" y="354.978" width="323.01" height="354.978" />
+  <SubTexture name="attack0012" x="1292.04" y="354.978" width="323.01" height="354.978" />
+  <SubTexture name="attack0013" x="1615.05" y="354.978" width="323.01" height="354.978" />
+  <SubTexture name="attack0014" x="1938.06" y="354.978" width="323.01" height="354.978" />
+  <SubTexture name="attack0015" x="2261.07" y="354.978" width="323.01" height="354.978" />
+  <SubTexture name="attack0016" x="0" y="709.956" width="323.01" height="354.978" />
+  <SubTexture name="attack0017" x="323.01" y="709.956" width="323.01" height="354.978" />
+  <SubTexture name="attack0018" x="646.02" y="709.956" width="323.01" height="354.978" />
+  <SubTexture name="attack0019" x="969.03" y="709.956" width="323.01" height="354.978" />
+  <SubTexture name="attack0020" x="1292.04" y="709.956" width="323.01" height="354.978" />
+  <SubTexture name="attack0021" x="1292.04" y="709.956" width="323.01" height="354.978" />
+  <SubTexture name="attack0022" x="1615.05" y="709.956" width="323.01" height="354.978" />
+  <SubTexture name="attack0023" x="1615.05" y="709.956" width="323.01" height="354.978" />
+  <SubTexture name="attack0024" x="1938.06" y="709.956" width="323.01" height="354.978" />
+  <SubTexture name="attack0025" x="2261.07" y="709.956" width="323.01" height="354.978" />
+  <SubTexture name="attack0026" x="1938.06" y="709.956" width="323.01" height="354.978" />
+  <SubTexture name="attack0027" x="1938.06" y="709.956" width="323.01" height="354.978" />
+</TextureAtlas>

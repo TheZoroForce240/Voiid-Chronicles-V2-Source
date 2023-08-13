@@ -1,0 +1,103 @@
+{
+    "defaultFlipX": false,
+    "cameraOffset": [0, -100],
+    "dancesLeftAndRight": true,
+    "imagePath": "TKODarkMatt",
+    "spritesheetType": "SPARROW",
+    "healthIcon": "Wiik3VoiidMatt",
+    "positionOffset": [70, 70],
+    "graphicSize": 1.5,
+    "barColor": [73,69,78],
+    "animations": [
+        {
+            "name": "danceLeft",
+            "animation_name": "idle0",
+            "fps": 30,
+            "looped": false
+        },
+        {
+            "name": "danceRight",
+            "animation_name": "idle2",
+            "fps": 30,
+            "looped": false
+        },
+        {
+            "name": "singLEFT",
+            "animation_name": "attackleft0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singDOWN",
+            "animation_name": "attackdown0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singUP",
+            "animation_name": "attackup0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "singRIGHT",
+            "animation_name": "attackright0",
+            "fps": 24,
+            "looped": false
+        },
+		{
+            "name": "blockLEFT",
+            "animation_name": "blockleft0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "blockDOWN",
+            "animation_name": "blockdown0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "blockUP",
+            "animation_name": "blockup0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "blockRIGHT",
+            "animation_name": "blockright0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "parryLEFT",
+            "animation_name": "parrydown0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "parryDOWN",
+            "animation_name": "parrydown0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "parryUP",
+            "animation_name": "parryup0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "parryRIGHT",
+            "animation_name": "parryup0",
+            "fps": 24,
+            "looped": false
+        },
+        {
+            "name": "fistThrow",
+            "animation_name": "Matt Attack FistThrow0",
+            "fps": 24,
+            "looped": false
+        }
+    ]
+}
