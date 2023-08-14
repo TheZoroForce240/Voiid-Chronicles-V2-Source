@@ -1,5 +1,6 @@
 package states;
 
+import online.GameJolt;
 import ui.Alphabet;
 import flixel.math.FlxMath;
 import game.Conductor;
@@ -122,7 +123,7 @@ class AwardManager
 
             if (award.gjTrophyID != -1)
             {
-                GameJoltStuff.unlockAchievement(award.gjTrophyID);
+                GameJolt.unlockAchievement(award.gjTrophyID);
             }
         }
     }
@@ -134,7 +135,7 @@ class AwardManager
             {
                 if (award.gjTrophyID != -1)
                 {
-                    GameJoltStuff.unlockAchievement(award.gjTrophyID); //there is a way to check if a trophy is unlocked already, but they have to be public i think
+                    GameJolt.unlockAchievement(award.gjTrophyID); //there is a way to check if a trophy is unlocked already, but they have to be public i think
                 }
             }
         }

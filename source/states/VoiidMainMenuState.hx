@@ -1,6 +1,7 @@
 package states;
 
-import GameJoltStuff.ServerListSubstate;
+import online.GameJolt;
+import online.ServerCreateSubstate;
 import flixel.input.gamepad.FlxGamepadInputID;
 import flixel.input.gamepad.FlxGamepad;
 import flixel.group.FlxSpriteGroup.FlxTypedSpriteGroup;
@@ -10,7 +11,7 @@ import substates.MusicBeatSubstate;
 import utilities.CoolUtil;
 import states.VoiidAwardsState.AwardDisplay;
 import utilities.Options;
-import GameJoltStuff.GameJoltLogin;
+import online.GameJoltLogin;
 import Popup.ClickableMessagePopup;
 import states.VoiidAwardsState.AwardManager;
 import Popup.AwardPopup;
@@ -43,7 +44,7 @@ import modding.PolymodHandler;
 class VoiidMainMenuState extends MusicBeatState
 {
     public static final devBuild:Bool = false;
-    public static final modVersion:String = "v2.0.1";
+    public static final modVersion:String = "v2.0.2";
 
     //@:allow(StoryMenuButton.loadButtons)
     static final wiikList = [
@@ -200,7 +201,7 @@ class VoiidMainMenuState extends MusicBeatState
 
         FlxG.mouse.visible = true;
 
-        var loginReturn:String = GameJoltStuff.initStuffs();
+        var loginReturn:String = GameJolt.initStuffs();
         trace(loginReturn);
         if (loginReturn == 'no login found' && FlxG.save.data.seenLoginPopup == null)
         {
@@ -434,7 +435,7 @@ class VoiidMainMenuState extends MusicBeatState
             FlxG.sound.play(Paths.sound('confirmMenu'));
             onlineButton.clicked = false;
             persistentUpdate = false;
-            openSubState(new ServerListSubstate());
+            openSubState(new ServerCreateSubstate());
         }
         onlineButton.loadButtons("online");
         add(onlineButton);

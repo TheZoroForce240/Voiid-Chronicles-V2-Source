@@ -1,7 +1,7 @@
 package states;
 
 import flixel.graphics.FlxGraphic;
-import GameJoltStuff.GameJoltLogin;
+import online.GameJoltLogin;
 import game.Note;
 import game.Conductor;
 import game.StrumNote;

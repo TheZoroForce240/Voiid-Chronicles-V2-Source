@@ -235,6 +235,7 @@ class PopupManager extends Sprite
                 if (popup.shouldKill)
                 {
                     removeChild(popup);
+                    FlxG.removeChild(popup);
                     popups.remove(popup);
                 }
             }

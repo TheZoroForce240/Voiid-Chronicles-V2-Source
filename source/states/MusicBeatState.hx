@@ -1,5 +1,7 @@
 package states;
 
+import online.Multiplayer;
+import online.GameJolt;
 import flixel.input.gamepad.FlxGamepad;
 import utilities.Options;
 import flixel.addons.transition.TransitionData;
@@ -52,10 +54,10 @@ class MusicBeatState extends FlxUIState
 	}
 	function updateGameJolt()
 	{
-		if (GameJoltStuff.connectedToGame && GameJoltStuff.loggedIn)
+		if (GameJolt.connected)
 		{
-			GameJoltStuff.resetPingTimer(); //pings dont seem to transfer when changing state
-			GameJoltStuff.ServerListSubstate.resetServerPingTimer();
+			GameJolt.resetPingTimer(); //pings dont seem to transfer when changing state
+			Multiplayer.resetServerPingTimer();
 		}	
 	}
 	override public function onFocus():Void

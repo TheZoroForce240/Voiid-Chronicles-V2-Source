@@ -1,5 +1,8 @@
 package;
 
+import haxe.CallStack;
+import haxe.CallStack.StackItem;
+import openfl.events.UncaughtErrorEvent;
 import utilities.Options;
 import openfl.system.Capabilities;
 import openfl.display.BitmapData;
@@ -179,6 +182,20 @@ class Main extends Sprite
 
 		popupManager = new PopupManager();
 		addChild(popupManager);
+		Lib.current.loaderInfo.uncaughtErrorEvents.addEventListener(UncaughtErrorEvent.UNCAUGHT_ERROR, onCrash);
+	}
+
+	function onCrash(e:UncaughtErrorEvent)
+	{
+		#if desktop
+		var callstack:Array<StackItem> = CallStack.exceptionStack(true);
+		trace(CallStack.toString(callstack));
+		trace(e.error);
+
+		Lib.application.window.alert(CallStack.toString(callstack), e.error); //popup crash with callstack and error message
+
+		Sys.exit(0);
+		#end
 	}
 
 	public static var display:SimpleInfoDisplay;

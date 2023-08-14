@@ -253,9 +253,9 @@ class ModchartUtilities
 
     function new(?path:Null<String>)
     {
-        var propBlackList = ["onUnlock", "score", "songScore", "misses", "accuracy", "hasMechAndModchartsEnabled", "health", "propBlackList", "isCheating", "hasUsedBot", "didDie", "invincible", 'playingFDGOD', "beatFDGOD", "beatFDGODold", "FlxG.save.data", "save.data", 
+        var propBlackList = ["Multiplayer", "GameJolt", "Leaderboards", "multiplayerScoreMult", "scoreMult", "onUnlock", "score", "songScore", "misses", "accuracy", "hasMechAndModchartsEnabled", "health", "propBlackList", "isCheating", "hasUsedBot", "didDie", "invincible", 'playingFDGOD', "beatFDGOD", "beatFDGODold", "FlxG.save.data", "save.data", 
         "inMultiplayerSession", "multiplayerEnded", "multiplayerSessionEndcheck", "badChart", "fdgod2PlayerSide", "progress", "goodNoteHit", "wasGoodHit", "strumTime", "notes", "unspawnNotes"];
-        var classBlackList = ["ChartChecker", "GameJoltStuff", "Popup", "FlxGameJolt", "Options", "AwardManager"];
+        var classBlackList = ["ChartChecker", "GameJoltStuff", "Popup", "FlxGameJolt", "Options", "AwardManager", "Multiplayer", "GameJolt", "Leaderboards"];
 
         //some shaders just dont work at all on mobile
         var mobileShaderBlacklist:Array<String> = ["BloomEffect", "ChromAbEffect", "ChromAbBlueSwapEffect", "VignetteEffect", "SparkEffect", "MosaicEffect", "ColorFillEffect", "SobelEffect"]; 

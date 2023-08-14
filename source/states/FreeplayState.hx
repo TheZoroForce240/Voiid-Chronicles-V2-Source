@@ -1,14 +1,17 @@
 package states;
 
-import GameJoltStuff.SimpleButton;
+import online.LeaderboardSubstate;
+import online.GameJolt;
+import online.Multiplayer;
+import online.Leaderboards;
+import online.ServerCreateSubstate.SimpleButton;
 import flixel.input.gamepad.FlxGamepadInputID;
 import flixel.input.gamepad.FlxGamepad;
 import states.VoiidAwardsState.AwardManager;
 import utilities.Options;
-import GameJoltStuff.GameJoltLogin;
 import flixel.addons.ui.FlxButtonPlus;
 import flixel.ui.FlxButton;
-import GameJoltStuff.ServerListSubstate;
+import online.ServerCreateSubstate;
 import flixel.graphics.tile.FlxDrawTrianglesItem.DrawData;
 import shaders.Shaders.BetterBlurEffect;
 import openfl.filters.ShaderFilter;
@@ -280,6 +283,11 @@ class FreeplayState extends MusicBeatState
 					if (isSongBeaten(songUnlockRequirements.get(songLower)))
 						locked = false;
 				}
+
+				if (!ChartChecker.exists(songLower)) //auto unlock for custom songs
+					locked = false;
+
+				
 			}
 
 			switch(song.toLowerCase())
@@ -454,7 +462,7 @@ class FreeplayState extends MusicBeatState
 		disconnectButton = new SimpleButton(FlxG.width*0.8, 100, function()
 		{
 			if (disconnectButton.visible)
-				GameJoltStuff.ServerListSubstate.endServer();
+				Multiplayer.endServer();
 		});
 		disconnectButton.loadGraphic(Paths.image("online/Disconnect"));
 		add(disconnectButton);
@@ -603,17 +611,17 @@ class FreeplayState extends MusicBeatState
 		//#end
 		if (songs.length <= 0)
 			return;
-		if (GameJoltStuff.ServerListSubstate.createdAClient)
-		{
-			leaderboardText.text = '\nLeaderboard disabled while connected to another player.\n';
-			updateLeaderboardTextPos();
-			return;
-		}
+		//if (GameJoltStuff.ServerListSubstate.createdAClient)
+		//{
+			//leaderboardText.text = '\nLeaderboard disabled while connected to another player.\n';
+			//updateLeaderboardTextPos();
+			//return;
+		//}
 		leaderboardText.text = '\nFetching scores...\n';
 		updateLeaderboardTextPos();
 		//trace(songs[curSelected].songName.toLowerCase());
 		//trace(curDiffString.toLowerCase());
-		GameJoltStuff.getLeaderboard(songs[curSelected].songName.toLowerCase(), curDiffString.toLowerCase(), curSpeed, false, function(str:String)
+		Leaderboards.getLeaderboard(songs[curSelected].songName.toLowerCase(), curDiffString.toLowerCase(), curSpeed, false, function(str:String)
 		{
 			var text:String = '';
 			//trace(str);
@@ -627,10 +635,10 @@ class FreeplayState extends MusicBeatState
 					text += '\nError fetching scores.';
 				default: 
 					//trace(str);
-					var scoreList:GameJoltStuff.SongLeaderboard;
+					var scoreList:SongLeaderboard;
 					try
 					{
-						scoreList = haxe.Unserializer.run(str); //unseralize from string to type
+						scoreList = Leaderboards.parseLeaderboardString(str); //unseralize from string to type
 					}
 					catch(e)
 					{
@@ -639,6 +647,8 @@ class FreeplayState extends MusicBeatState
 						updateLeaderboardTextPos();
 						return;
 					}
+
+					//trace(scoreList);
 					
 					var limit = scoreList.scores.length;
 					if (limit > 3)
@@ -816,30 +826,29 @@ class FreeplayState extends MusicBeatState
 		var downP = controls.DOWN_P;
 
 		var disableControls = false; //disable entering and exiting when waiting in a server lol
-		var preventBreakingShit = (GameJoltStuff.ServerListSubstate.player1Client != null && GameJoltStuff.ServerListSubstate.player2Client != null);
+		var preventBreakingShit = (Multiplayer.player1Client != null && Multiplayer.player2Client != null);
 		if (preventBreakingShit)
 			FlxG.autoPause = false;
 
-		disconnectButton.visible = (GameJoltStuff.ServerListSubstate.createdAClient);
+		disconnectButton.visible = (Multiplayer.createdAClient);
 		FlxG.mouse.visible = disconnectButton.visible;
 
-		if (GameJoltStuff.ServerListSubstate.createdAClient && GameJoltStuff.ServerListSubstate.currentPlayer != 1 && songs.length > 0)
+		if (Multiplayer.createdAClient && Multiplayer.currentPlayer != 0 && songs.length > 0)
 		{
-			
 			if (preventBreakingShit)
 			{
 				disableControls = true;
 
-				if (GameJoltStuff.ServerListSubstate.player1Client.song != '' && GameJoltStuff.ServerListSubstate.player1Client.song != null)
+				if (Multiplayer.player1Client.song != '' && Multiplayer.player1Client.song != null)
 				{
 					if (!loadedMultiplayerSong)
 					{
 						loadedMultiplayerSong = true;
 						persistentUpdate = false;
 
-						var song:String = GameJoltStuff.ServerListSubstate.player1Client.song;
-						var diff:String = GameJoltStuff.ServerListSubstate.player1Client.diff;
-						curSpeed = GameJoltStuff.ServerListSubstate.player1Client.songSpeed;
+						var song:String = Multiplayer.player1Client.song;
+						var diff:String = Multiplayer.player1Client.diff;
+						curSpeed = Multiplayer.player1Client.songSpeed;
 
 						var poop:String = Highscore.formatSong(song.toLowerCase(), diff);
 	
@@ -1148,9 +1157,9 @@ class FreeplayState extends MusicBeatState
 				changeSelection();
 			}
 
-			if (selectedSong && FlxG.keys.justPressed.TAB && !preventBreakingShit && GameJoltStuff.loggedIn && GameJoltStuff.connectedToGame && songs.length > 0)
+			if (selectedSong && FlxG.keys.justPressed.TAB && !preventBreakingShit && GameJolt.connected && songs.length > 0)
 			{
-				var subState = new GameJoltStuff.LeaderboardSubstate(songs[curSelected].songName, curDiffString, curSpeed);
+				var subState = new LeaderboardSubstate(songs[curSelected].songName, curDiffString, curSpeed);
 				subState.cameras = [camHUD];
 				openSubState(subState);
 			}
@@ -1216,10 +1225,10 @@ class FreeplayState extends MusicBeatState
 
 							if (preventBreakingShit)
 							{
-								GameJoltStuff.ServerListSubstate.clients[GameJoltStuff.ServerListSubstate.currentPlayer].song = songs[curSelected].songName;
-								GameJoltStuff.ServerListSubstate.clients[GameJoltStuff.ServerListSubstate.currentPlayer].diff = curDiffString;
-								GameJoltStuff.ServerListSubstate.clients[GameJoltStuff.ServerListSubstate.currentPlayer].songSpeed = curSpeed;
-								GameJoltStuff.ServerListSubstate.updateServer();
+								Multiplayer.clients[Multiplayer.currentPlayer].song = songs[curSelected].songName;
+								Multiplayer.clients[Multiplayer.currentPlayer].diff = curDiffString;
+								Multiplayer.clients[Multiplayer.currentPlayer].songSpeed = curSpeed;
+								Multiplayer.updateServer();
 							}
 	
 							PlayState.chartingMode = false;

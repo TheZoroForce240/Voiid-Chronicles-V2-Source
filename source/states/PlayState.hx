@@ -1,5 +1,7 @@
 package states;
 
+import online.Leaderboards;
+import online.Multiplayer;
 #if desktop
 import modding.FlxTransWindow;
 #end
@@ -539,7 +541,7 @@ class PlayState extends MusicBeatState
 			canPause = false;
 			FlxG.autoPause = false;
 
-			characterPlayingAs = (GameJoltStuff.ServerListSubstate.currentPlayer == 1 ? 0 : 1);
+			characterPlayingAs = Multiplayer.currentPlayer;
 
 			multiplayerSessionEndcheck = true;
 
@@ -1154,8 +1156,8 @@ class PlayState extends MusicBeatState
 					default:
 						if (inMultiplayerSession)
 						{
-							GameJoltStuff.ServerListSubstate.clients[GameJoltStuff.ServerListSubstate.currentPlayer].playerLoaded = true;
-							GameJoltStuff.ServerListSubstate.updateServer();
+							Multiplayer.clients[Multiplayer.currentPlayer].playerLoaded = true;
+							Multiplayer.updateServer();
 						}
 						else 
 						{
@@ -1184,7 +1186,8 @@ class PlayState extends MusicBeatState
 				{
 					Main.popupManager.addPopup(new MessagePopup(5, 300, 50, "Events are invalid, score will not be saved."));
 					badChart = true;
-					inMultiplayerSession = false; //force dc if edited chart
+					if (ChartChecker.exists(PlayState.SONG.song.toLowerCase()))
+						inMultiplayerSession = false; //force dc if edited chart
 				}
 				trace('bad events');
 			}
@@ -1923,7 +1926,8 @@ class PlayState extends MusicBeatState
 				{
 					Main.popupManager.addPopup(new MessagePopup(5, 300, 50, "Chart is invalid, score will not be saved."));
 					badChart = true;
-					inMultiplayerSession = false; //force dc if edited chart
+					if (ChartChecker.exists(PlayState.SONG.song.toLowerCase()))
+						inMultiplayerSession = false; //force dc if edited chart
 				}
 				trace('bad chart');
 
@@ -1931,8 +1935,8 @@ class PlayState extends MusicBeatState
 			}
 			else 
 			{
-				if (inMultiplayerSession)
-				{
+				//if (inMultiplayerSession)
+				//{
 					var p1NoteCount = ChartChecker.getTotalNotes(unspawnNotes, true);
 					var p2NoteCount = ChartChecker.getTotalNotes(unspawnNotes, false);
 
@@ -1940,26 +1944,29 @@ class PlayState extends MusicBeatState
 					var totalP2Score:Int = 0;
 					for (i in 0...p1NoteCount)
 					{
-						var scoreMult:Int = Math.ceil((i+1)/10);
+						var scoreMult:Int = calculateScoreMult(i);
 						totalP1Score += Math.floor(400*scoreMult);
 					}
 					for (i in 0...p2NoteCount)
 					{
-						var scoreMult:Int = Math.ceil((i+1)/10);
+						var scoreMult:Int = calculateScoreMult(i);
 						totalP2Score += Math.floor(400*scoreMult);
 					}
 
-					if (characterPlayingAs == 0)
-						multiplayerScoreMult = totalP2Score/totalP1Score;
+					if (characterPlayingAs != 0)
+						multiplayerScoreMult = totalP1Score/totalP2Score;
 
 					//trace("total player count " + p1NoteCount);
 					//trace("total opponent count " + p2NoteCount);
+					
+					
+					///trace("P2 Score Multiplier " + multiplayerScoreMult);
 
-					//trace("P1 Score Multiplier " + multiplayerScoreMult);
-
-					//trace("total player score " + Math.floor(totalP1Score*multiplayerScoreMult));
-					//trace("total opponent score " + totalP2Score);
-				}
+					//trace("total player score " + totalP1Score);
+					//trace("total opponent score " + Math.floor(totalP2Score*multiplayerScoreMult));
+					//trace("opponent score unscaled " + totalP2Score);
+					
+				//}
 				trace('good chart');
 			}
 				
@@ -2502,10 +2509,10 @@ class PlayState extends MusicBeatState
 			gameHUD.updateScoreText(
 				"Waiting for other player..."
 			);
-			GameJoltStuff.ServerListSubstate.clients[GameJoltStuff.ServerListSubstate.currentPlayer].playerLoaded = true; //in case it didnt send properly??
-			GameJoltStuff.ServerListSubstate.clients[GameJoltStuff.ServerListSubstate.currentPlayer].song = SONG.song.toLowerCase();
-			GameJoltStuff.ServerListSubstate.clients[GameJoltStuff.ServerListSubstate.currentPlayer].diff = storyDifficultyStr;
-			if (GameJoltStuff.ServerListSubstate.player1Client.playerLoaded && GameJoltStuff.ServerListSubstate.player2Client.playerLoaded)
+			Multiplayer.clients[Multiplayer.currentPlayer].playerLoaded = true; //in case it didnt send properly??
+			Multiplayer.clients[Multiplayer.currentPlayer].song = SONG.song.toLowerCase();
+			Multiplayer.clients[Multiplayer.currentPlayer].diff = storyDifficultyStr;
+			if (Multiplayer.player1Client.playerLoaded && Multiplayer.player2Client.playerLoaded)
 				startCountdown();
 		}
 
@@ -2514,7 +2521,7 @@ class PlayState extends MusicBeatState
 		{
 			trace('dc');
 			Main.popupManager.addPopup(new MessagePopup(6, 300, 100, "Disconnected from Server"));
-			GameJoltStuff.ServerListSubstate.endServer();
+			Multiplayer.endServer();
 			if (startingSong)
 			{
 
@@ -2542,17 +2549,17 @@ class PlayState extends MusicBeatState
 			switchedStates = true;
 			persistentDraw = true;
 			persistentUpdate = false;
-			FlxG.switchState(new FreeplayState());
+			FlxG.switchState(new VoiidMainMenuState());
 		}
 
 		if (inMultiplayerSession && multiplayerEnded)
 		{
-			var clientsExist = (GameJoltStuff.ServerListSubstate.player1Client != null && GameJoltStuff.ServerListSubstate.player2Client != null);
+			var clientsExist = (Multiplayer.player1Client != null && Multiplayer.player2Client != null);
 
 			if (clientsExist)
 			{
-				GameJoltStuff.ServerListSubstate.clients[GameJoltStuff.ServerListSubstate.currentPlayer].playerFinishedSong = true;
-				if (GameJoltStuff.ServerListSubstate.player1Client.playerFinishedSong && GameJoltStuff.ServerListSubstate.player2Client.playerFinishedSong)
+				Multiplayer.clients[Multiplayer.currentPlayer].playerFinishedSong = true;
+				if (Multiplayer.player1Client.playerFinishedSong && Multiplayer.player2Client.playerFinishedSong)
 				{
 					if (!multiplayerEnding)
 					{
@@ -2561,8 +2568,24 @@ class PlayState extends MusicBeatState
 						new FlxTimer().start(2, function(timer:FlxTimer)
 						{
 							trace('timer');
-							var p1Win = GameJoltStuff.ServerListSubstate.player1Client.playerScore > GameJoltStuff.ServerListSubstate.player2Client.playerScore;
-							var draw = GameJoltStuff.ServerListSubstate.player1Client.playerScore == GameJoltStuff.ServerListSubstate.player2Client.playerScore;
+
+							var p1Win:Bool = false;
+							var draw:Bool = false;
+
+							switch(Multiplayer.player1Client.winCondition)
+							{
+								case "Score": 
+									p1Win = Multiplayer.player1Client.playerScore > Multiplayer.player2Client.playerScore;
+									draw = Multiplayer.player1Client.playerScore == Multiplayer.player2Client.playerScore;
+								case "Accuracy": 
+									p1Win = Multiplayer.player1Client.playerAccuracy > Multiplayer.player2Client.playerAccuracy;
+									draw = Multiplayer.player1Client.playerAccuracy == Multiplayer.player2Client.playerAccuracy;
+								case "Misses": 
+									p1Win = Multiplayer.player1Client.playerMisses < Multiplayer.player2Client.playerMisses;
+									draw = Multiplayer.player1Client.playerMisses == Multiplayer.player2Client.playerMisses;
+							}
+
+
 		
 							if (!draw)
 							{
@@ -2574,7 +2597,7 @@ class PlayState extends MusicBeatState
 									FlxG.save.data.matchesPlayed = 0;
 						
 								FlxG.save.data.matchesPlayed++;
-								if ((p1Win && GameJoltStuff.ServerListSubstate.currentPlayer == 1) || (!p1Win && GameJoltStuff.ServerListSubstate.currentPlayer == 0))
+								if ((p1Win && Multiplayer.currentPlayer == 0) || (!p1Win && Multiplayer.currentPlayer == 1))
 								{
 									//you won
 									FlxG.save.data.wins++;
@@ -2588,11 +2611,11 @@ class PlayState extends MusicBeatState
 		
 								if (p1Win)
 								{
-									Main.popupManager.addPopup(new MessagePopup(6, 300, 100, GameJoltStuff.ServerListSubstate.player1Client.playerName+" wins!"));
+									Main.popupManager.addPopup(new MessagePopup(6, 300, 100, Multiplayer.player1Client.playerName+" wins!"));
 								}
 								else 
 								{
-									Main.popupManager.addPopup(new MessagePopup(6, 300, 100, GameJoltStuff.ServerListSubstate.player2Client.playerName+" wins!"));
+									Main.popupManager.addPopup(new MessagePopup(6, 300, 100, Multiplayer.player2Client.playerName+" wins!"));
 								}
 								
 							}
@@ -2606,7 +2629,7 @@ class PlayState extends MusicBeatState
 							}
 							FlxG.save.flush();
 		
-							GameJoltStuff.ServerListSubstate.endServer();
+							Multiplayer.endServer();
 							endSong();
 						});
 					}
@@ -2618,7 +2641,7 @@ class PlayState extends MusicBeatState
 			}
 			else 
 			{
-				GameJoltStuff.ServerListSubstate.endServer();
+				Multiplayer.endServer();
 				endSong();
 			}
 
@@ -2759,7 +2782,7 @@ class PlayState extends MusicBeatState
 
 		if (startedCountdown && inMultiplayerSession)
 		{
-			var yourClient = GameJoltStuff.ServerListSubstate.clients[GameJoltStuff.ServerListSubstate.currentPlayer];
+			var yourClient = Multiplayer.clients[Multiplayer.currentPlayer];
 			yourClient.playerScore = songScore;
 			yourClient.playerMisses = misses;
 			yourClient.playerAccuracy = accuracy;
@@ -2781,10 +2804,8 @@ class PlayState extends MusicBeatState
 
 			
 
-			var opponentPlayer = 1;
-			if (GameJoltStuff.ServerListSubstate.currentPlayer == 1)
-				opponentPlayer = 0;
-			var opponentClient = GameJoltStuff.ServerListSubstate.clients[opponentPlayer];
+			var opponentPlayer = Multiplayer.getOpponentPlayer();
+			var opponentClient = Multiplayer.clients[opponentPlayer];
 
 
 			if (currentOpponentStrums != null && fdgod2PlayerSide == -1)
@@ -2801,11 +2822,11 @@ class PlayState extends MusicBeatState
 			}
 			//trace(opponentClient);
 
-			var player1 = GameJoltStuff.ServerListSubstate.player1Client;
-			var player2 = GameJoltStuff.ServerListSubstate.player2Client;
+			var player1 = Multiplayer.player1Client;
+			var player2 = Multiplayer.player2Client;
 
 			gameHUD.updateScoreText(
-				player1.playerName + (GameJoltStuff.ServerListSubstate.currentPlayer == 1 ? "(YOU)" : "") +
+				player1.playerName + (Multiplayer.currentPlayer == 0 ? "(YOU)" : "") +
 				(player1.playerDied ? " (DIED)" : "") + "\n" +
 				"Score: " + player1.playerScore + "\n" +
 				"Combo Breaks: " + player1.playerMisses + "\n" +
@@ -2815,7 +2836,7 @@ class PlayState extends MusicBeatState
 			);
 
 			gameHUD.updateScoreTextP2(
-				player2.playerName + (GameJoltStuff.ServerListSubstate.currentPlayer == 0 ? "(YOU)" : "") +
+				player2.playerName + (Multiplayer.currentPlayer == 1 ? "(YOU)" : "") +
 				(player2.playerDied ? " (DIED)" : "") + "\n" +
 				"Score: " + player2.playerScore + "\n" +
 				"Combo Breaks: " + player2.playerMisses + "\n" +
@@ -2826,7 +2847,7 @@ class PlayState extends MusicBeatState
 
 			var multiplayerHealth:Float = 0;
 
-			if (GameJoltStuff.ServerListSubstate.currentPlayer == 0)
+			if (Multiplayer.currentPlayer == 0)
 				multiplayerHealth = opponentClient.playerHealth-health;
 			else 
 				multiplayerHealth = health-opponentClient.playerHealth;
@@ -3580,7 +3601,7 @@ class PlayState extends MusicBeatState
 					if (!hasUsedBot && !didDie && !isCheating && 
 						hasMechAndModchartsEnabled && songMultiplier >= 1)
 					{
-						GameJoltStuff.addHighScore(SONG.song.toLowerCase(), storyDifficultyStr.toLowerCase(), songMultiplier, characterPlayingAs == 1, accuracy, songScore, misses);
+						Leaderboards.addHighScore(SONG.song.toLowerCase(), storyDifficultyStr.toLowerCase(), songMultiplier, characterPlayingAs == 1, accuracy, songScore, misses);
 					}
 				}
 				#end
@@ -3842,6 +3863,18 @@ class PlayState extends MusicBeatState
 	var number_Tweens:Array<VarTween> = [];
 
 	var multiplayerScoreMult:Float = 1.0;
+	var scoreMult:Int = 1;
+
+	private function calculateScoreMult(c:Int)
+	{
+		var mult:Int = 1;
+		mult = Math.ceil((combo)/10);
+		if (mult > 5)
+			mult = 5;
+		if (mult < 1)
+			mult = 1;
+		return mult;
+	}
 
 	private function popUpScore(strumtime:Float, noteData:Int, ?setNoteDiff:Float):Void
 	{
@@ -3860,7 +3893,12 @@ class PlayState extends MusicBeatState
 
 		var daRating:String = Ratings.getRating(Math.abs(noteDiff));
 
-		var scoreMult:Int = Math.ceil((combo+1)/10);
+		if (daRating == "shit")
+		{
+			combo = 0; //dont multiply by shit score
+		}
+		scoreMult = calculateScoreMult(combo); 
+
 
 		var score:Int = Math.floor(Ratings.getScore(daRating)*scoreMult*multiplayerScoreMult);
 
@@ -3881,8 +3919,6 @@ class PlayState extends MusicBeatState
 
 				if(utilities.Options.getData("missOnShit"))
 					misses += 1;
-
-				combo = 0;
 		}
 
 		executeALuaState("popUpScore", [daRating, combo]);

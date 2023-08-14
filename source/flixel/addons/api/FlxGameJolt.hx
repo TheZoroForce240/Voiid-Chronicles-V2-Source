@@ -14,6 +14,15 @@ import flixel.FlxG;
 import flash.Lib;
 #end
 
+typedef RequestLoader = 
+{
+	var _loader:URLLoader;
+	var _callBack:Dynamic;
+	var _returnMap:Map<String,String>;
+	var _getImage:Bool;
+	var _batch:Bool;
+}
+
 /**
  * Similar to FlxKongregate, this allows access to the GameJolt API. Based loosely on the AS3 version by SumYungGai with many changes.
  *
@@ -112,16 +121,6 @@ class FlxGameJolt
 	public static var isEmbeddedFlash(get, never):Bool;
 
 	/**
-	 * Internal storage for a callback function, used when the URLLoader is complete.
-	 */
-	static var _callBack:Dynamic;
-
-	/**
-	 * Internal storage for a callback function, used when the URLLoader is complete.
-	 */
-	 static var _callBackTime:Dynamic;
-
-	/**
 	 * Internal storage for this game's ID.
 	 */
 	static var _gameID:Int = 0;
@@ -159,35 +158,7 @@ class FlxGameJolt
 	 */
 	static var _verifyAuth:Bool = false;
 
-	/**
-	 * Internal tracker for getting bitmapdata for a trophy image.
-	 */
-	static var _getImage:Bool = false;
-
-	/**
-	 * URLLoader object for sending URL requests.
-	 */
-	static var _loader:URLLoader;
-
-	/**
-	 * URLLoader object for sending URL requests.
-	 */
-	 static var _loaderBatch:URLLoader;
-
-	/**
-	 * URLLoader object for sending URL requests.
-	 */
-	 static var _loaderTime:URLLoader;
-
-	/**
-	 * A string map that contains what is returned from GameJolt servers.
-	 */
-	static var returnMap:Map<String, String> = new Map<String, String>();
-
-	/**
-	 * A string map that contains what is returned from GameJolt servers.
-	 */
-	 static var returnMapTime:Map<String, String> = new Map<String, String>();
+	static var _loaders:Map<String, RequestLoader> = new Map<String, RequestLoader>();
 
 	/**
 	 * Various common strings required by the API's https values.
@@ -248,7 +219,7 @@ class FlxGameJolt
 	 * @param	UserIDs	An array of integers representing user IDs. Pass [] or nothing to ignore.
 	 * @param	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function fetchUser(?UserID:Int, ?UserName:String, ?UserIDs:Array<Int>, ?Callback:Dynamic):Void
+	public static function fetchUser(?UserID:Int, ?UserName:String, ?UserIDs:Array<Int>, ?Callback:Dynamic, ?loaderGroup:String = "user"):Void
 	{
 		var tempURL:String = URL_API + "users/" + RETURN_TYPE + URL_GAME_ID + _gameID;
 
@@ -276,7 +247,7 @@ class FlxGameJolt
 			return;
 		}
 
-		sendLoaderRequest(tempURL, Callback);
+		sendLoaderRequest(tempURL, Callback, loaderGroup);
 	}
 
 	/**
@@ -287,7 +258,7 @@ class FlxGameJolt
 	 * @param	UserToken	A user token. Players enter this instead of a password to enable highscores, trophies, etc. Leave null to automatically pull user data (only works for embedded Flash on GameJolt or Quick Play). User tokens can only have letters and numbers, and must be 4-30 characters long.
 	 * @param	Callback	An optional callback function. Will return true if authentication was successful, false otherwise.
 	 */
-	public static function authUser(?UserName:String, ?UserToken:String, ?Callback:Dynamic):Void
+	public static function authUser(?UserName:String, ?UserToken:String, ?Callback:Dynamic, ?loaderGroup:String = "default"):Void
 	{
 		if (!gameInit || (_userName != null && _userToken != null))
 		{
@@ -337,7 +308,7 @@ class FlxGameJolt
 		{
 			_idURL = URL_GAME_ID + _gameID + URL_USER_NAME + _userName + URL_USER_TOKEN + _userToken;
 			_verifyAuth = true;
-			sendLoaderRequest(URL_API + "users/auth/" + RETURN_TYPE + _idURL, Callback);
+			sendLoaderRequest(URL_API + "users/auth/" + RETURN_TYPE + _idURL, Callback, loaderGroup);
 		}
 		else
 		{
@@ -353,12 +324,12 @@ class FlxGameJolt
 	 * @see 	https://gamejolt.com/api/doc/game/sessions/open/
 	 * @param 	Callback 	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function openSession(?Callback:Dynamic):Void
+	public static function openSession(?Callback:Dynamic, ?loaderGroup:String = "default"):Void
 	{
 		if (!authenticated)
 			return;
 
-		sendLoaderRequest(URL_API + "sessions/open/" + RETURN_TYPE + _idURL, Callback);
+		sendLoaderRequest(URL_API + "sessions/open/" + RETURN_TYPE + _idURL, Callback, loaderGroup);
 	}
 
 	/**
@@ -368,7 +339,7 @@ class FlxGameJolt
 	 * @param	Active		Leave true to set the session to active, or set to false to set the session to idle.
 	 * @param	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function pingSession(Active:Bool = true, ?Callback:Dynamic):Void
+	public static function pingSession(Active:Bool = true, ?Callback:Dynamic, ?loaderGroup:String = "ping"):Void
 	{
 		if (!authenticated)
 			return;
@@ -384,7 +355,7 @@ class FlxGameJolt
 			tempURL += "idle";
 		}
 
-		sendLoaderRequest(tempURL, Callback);
+		sendLoaderRequest(tempURL, Callback, loaderGroup);
 	}
 
 	/**
@@ -393,12 +364,12 @@ class FlxGameJolt
 	 * @see 	https://gamejolt.com/api/doc/game/sessions/close/
 	 * @param	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function closeSession(?Callback:Dynamic):Void
+	public static function closeSession(?Callback:Dynamic, ?loaderGroup:String = "default"):Void
 	{
 		if (!authenticated)
 			return;
 
-		sendLoaderRequest(URL_API + "sessions/close/" + RETURN_TYPE + _idURL, Callback);
+		sendLoaderRequest(URL_API + "sessions/close/" + RETURN_TYPE + _idURL, Callback, loaderGroup);
 	}
 
 	/**
@@ -408,7 +379,7 @@ class FlxGameJolt
 	 * @param	DataType	Pass FlxGameJolt.TROPHIES_MISSING or FlxGameJolt.TROPHIES_ACHIEVED to get the trophies this user is missing or already has, respectively.  Or, pass in a trophy ID # to see if this user has that trophy or not.  If unused or zero, will return all trophies.
 	 * @param	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function fetchTrophy(DataType:Int = 0, ?Callback:Dynamic):Void
+	public static function fetchTrophy(DataType:Int = 0, ?Callback:Dynamic, ?loaderGroup:String = "trophy"):Void
 	{
 		if (!authenticated)
 			return;
@@ -427,7 +398,7 @@ class FlxGameJolt
 				tempURL += "&trophy_id=" + Std.string(DataType);
 		}
 
-		sendLoaderRequest(tempURL, Callback);
+		sendLoaderRequest(tempURL, Callback, loaderGroup);
 	}
 
 	/**
@@ -437,12 +408,12 @@ class FlxGameJolt
 	 * @param	TrophyID	The unique ID number for this trophy. Can be seen at https://gamejolt.com/dashboard/developer/games/achievements/<Your Game ID>/ in the right-hand column.
 	 * @param 	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function addTrophy(TrophyID:Int, ?Callback:Dynamic):Void
+	public static function addTrophy(TrophyID:Int, ?Callback:Dynamic, ?loaderGroup:String = "trophy"):Void
 	{
 		if (!authenticated)
 			return;
 
-		sendLoaderRequest(URL_API + "trophies/add-achieved/" + RETURN_TYPE + _idURL + "&trophy_id=" + TrophyID, Callback);
+		sendLoaderRequest(URL_API + "trophies/add-achieved/" + RETURN_TYPE + _idURL + "&trophy_id=" + TrophyID, Callback, loaderGroup);
 	}
 
 	/**
@@ -453,7 +424,7 @@ class FlxGameJolt
 	 * @param 	TableID		The ID of the table you want to pull data from. Leave blank to fetch from the primary score table.
 	 * @param	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function fetchScore(?Limit:Int, ?TableID:Int, ?Callback:Dynamic):Void
+	public static function fetchScore(?Limit:Int, ?TableID:Int, ?Callback:Dynamic, ?loaderGroup:String = "score"):Void
 	{
 		if (!gameInit)
 			return;
@@ -483,7 +454,7 @@ class FlxGameJolt
 			tempURL += _idURL;
 		}
 
-		sendLoaderRequest(tempURL, Callback);
+		sendLoaderRequest(tempURL, Callback, loaderGroup);
 	}
 
 	/**
@@ -501,7 +472,7 @@ class FlxGameJolt
 	 * @param 	Callback 	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
 	public static function addScore(Score:String, Sort:Float, ?TableID:Int, AllowGuest:Bool = false, ?GuestName:String, ?ExtraData:String,
-			?Callback:Dynamic):Void
+			?Callback:Dynamic, ?loaderGroup:String = "score"):Void
 	{
 		if (!gameInit)
 			return;
@@ -532,7 +503,7 @@ class FlxGameJolt
 			tempURL += "&table_id=" + TableID;
 		}
 
-		sendLoaderRequest(tempURL, Callback);
+		sendLoaderRequest(tempURL, Callback, loaderGroup);
 	}
 
 	/**
@@ -541,12 +512,12 @@ class FlxGameJolt
 	 * @see 	https://gamejolt.com/api/doc/game/scores/tables/
 	 * @param	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function getTables(?Callback:Dynamic):Void
+	public static function getTables(?Callback:Dynamic, ?loaderGroup:String = "tables"):Void
 	{
 		if (!gameInit)
 			return;
 
-		sendLoaderRequest(URL_API + "scores/tables/" + RETURN_TYPE + URL_GAME_ID + _gameID, Callback);
+		sendLoaderRequest(URL_API + "scores/tables/" + RETURN_TYPE + URL_GAME_ID + _gameID, Callback, loaderGroup);
 	}
 
 	/**
@@ -557,7 +528,7 @@ class FlxGameJolt
 	 * @param	User		Whether or not to get the data associated with this user. True by default.
 	 * @param	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function fetchData(Key:String, User:Bool = true, ?Callback:Dynamic):Void
+	public static function fetchData(Key:String, User:Bool = true, ?Callback:Dynamic, ?loaderGroup:String = "data"):Void
 	{
 		if (!gameInit)
 			return;
@@ -576,7 +547,7 @@ class FlxGameJolt
 			tempURL += URL_GAME_ID + _gameID;
 		}
 
-		sendLoaderRequest(tempURL, Callback);
+		sendLoaderRequest(tempURL, Callback, loaderGroup);
 	}
 
 	/**
@@ -589,7 +560,7 @@ class FlxGameJolt
 	 * @param	User		Whether or not to associate this with this user. True by default.
 	 * @param	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function setData(Key:String, Value:String, User:Bool = true, ?Callback:Dynamic):Void
+	public static function setData(Key:String, Value:String, User:Bool = true, ?Callback:Dynamic, ?loaderGroup:String = "data"):Void
 	{
 		if (!gameInit)
 			return;
@@ -608,7 +579,7 @@ class FlxGameJolt
 			tempURL += URL_GAME_ID + _gameID;
 		}
 
-		sendLoaderRequest(tempURL, Callback);
+		sendLoaderRequest(tempURL, Callback, loaderGroup);
 	}
 
 	/**
@@ -622,7 +593,7 @@ class FlxGameJolt
 	 * @param	User		Whether or not to work with the data associated with this user.
 	 * @param	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function updateData(Key:String, Operation:String, Value:String, User:Bool = true, ?Callback:Dynamic):Void
+	public static function updateData(Key:String, Operation:String, Value:String, User:Bool = true, ?Callback:Dynamic, ?loaderGroup:String = "data"):Void
 	{
 		if (!gameInit)
 			return;
@@ -641,7 +612,7 @@ class FlxGameJolt
 			tempURL += URL_GAME_ID + _gameID;
 		}
 
-		sendLoaderRequest(tempURL, Callback);
+		sendLoaderRequest(tempURL, Callback, loaderGroup);
 	}
 
 	/**
@@ -652,7 +623,7 @@ class FlxGameJolt
 	 * @param	User		Whether or not to remove the data associated with this user. True by default.
 	 * @param	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function removeData(Key:String, User:Bool = true, ?Callback:Dynamic):Void
+	public static function removeData(Key:String, User:Bool = true, ?Callback:Dynamic, ?loaderGroup:String = "data"):Void
 	{
 		if (!gameInit)
 			return;
@@ -671,7 +642,7 @@ class FlxGameJolt
 			tempURL += URL_GAME_ID + _gameID;
 		}
 
-		sendLoaderRequest(tempURL, Callback);
+		sendLoaderRequest(tempURL, Callback, loaderGroup);
 	}
 
 	/**
@@ -681,7 +652,7 @@ class FlxGameJolt
 	 * @param	User		Whether or not to get the keys associated with this user. True by default.
 	 * @param	Callback	An optional callback function. Will return a Map<String:String> whose keys and values are equivalent to the key-value pairs returned by GameJolt.
 	 */
-	public static function getAllKeys(User:Bool = true, pattern:String = "",?Callback:Dynamic):Void
+	public static function getAllKeys(User:Bool = true, pattern:String = "",?Callback:Dynamic, ?loaderGroup:String = "allKeys"):Void
 	{
 		if (!gameInit)
 			return;
@@ -705,7 +676,9 @@ class FlxGameJolt
 		}
 		
 
-		sendLoaderRequestBatch(tempURL, Callback); //get all keys returns multiple
+		getLoaderGroup(loaderGroup)._batch = true; //set as batch for getting all keys
+
+		sendLoaderRequest(tempURL, Callback, loaderGroup); //get all keys returns multiple
 	}
 
 	public static function getTime(?Callback:Dynamic)
@@ -715,7 +688,7 @@ class FlxGameJolt
 
 		var tempURL = URL_API + "time/" + RETURN_TYPE;
 		tempURL += URL_GAME_ID + _gameID;
-		sendLoaderRequestTime(tempURL, Callback);
+		sendLoaderRequest(tempURL, Callback, "time");
 	}
 
 	/**
@@ -723,149 +696,97 @@ class FlxGameJolt
 	 *
 	 * @param	URLString	The URL to send to. Usually formatted as the API url, section of the API (e.g. "trophies/") and then variables to pass (e.g. user name, trophy ID).
 	 * @param	Callback	A function to call when loading is done and data is parsed.
+	 * @param   loaderGroup The Loader Group that the request is conncted to, only 1 request can happen at once in a group, use different groups for loading multiple url requests at the same time
 	 */
-	static function sendLoaderRequest(URLString:String, ?Callback:Dynamic):Void
+	static function sendLoaderRequest(URLString:String, ?Callback:Dynamic, ?loaderGroup:String = "default"):Void
 	{
 		var request:URLRequest = new URLRequest(URLString + "&signature=" + encryptURL(URLString));
 		request.method = URLRequestMethod.POST;
 
-		_callBack = Callback;
+		var _loaderGroup:RequestLoader = getLoaderGroup(loaderGroup);
 
-		if (_loader == null)
-			_loader = new URLLoader();
+		//trace(loaderGroup);
+		//trace(_loaderGroup);
+		//trace(_loaders);
+
+		_loaderGroup._callBack = Callback;
 
 		#if debug
 		if (verbose)
 			FlxG.log.add("FlxGameJolt: Contacting " + request.url);
 		#end
 
-		_loader.addEventListener(Event.COMPLETE, parseData);
-		_loader.load(request);
-	}
+		var parseData:Event->Void;
 
-
-	//sorry for copy paste
-	//stupid thing doesnt work with multiple requests
-	/**
-	 * A generic internal function to setup and send a URLRequest. All of the functions that interact with the API use this.
-	 *
-	 * @param	URLString	The URL to send to. Usually formatted as the API url, section of the API (e.g. "trophies/") and then variables to pass (e.g. user name, trophy ID).
-	 * @param	Callback	A function to call when loading is done and data is parsed.
-	 */
-	 static function sendLoaderRequestTime(URLString:String, ?Callback:Dynamic):Void
+		parseData = function(e:Event)
 		{
-			var request:URLRequest = new URLRequest(URLString + "&signature=" + encryptURL(URLString));
-			request.method = URLRequestMethod.POST;
-	
-			_callBackTime = Callback;
-	
-			if (_loaderTime == null)
-				_loaderTime = new URLLoader();
-	
-			#if debug
-			if (verbose)
-				FlxG.log.add("FlxGameJolt: Contacting " + request.url);
-			#end
-	
-			_loaderTime.addEventListener(Event.COMPLETE, parseDataTime);
-			_loaderTime.load(request);
-		}
+			_loaderGroup._loader.removeEventListener(Event.COMPLETE, parseData);
 
-	/**
-	 * Called when the URLLoader has received data back.
-	 * Will call _callBack() with the data received from GameJolt as Map<String,String> when done.
-	 * However, if we're getting an image, a second URLRequest is called, and that will be done first.
-	 * Or, if we're authenticating the user, the verifyAuthentication function will be called instead.
-	 *
-	 * @param	e	The URLLoader complete event.
-	 */
-	static function parseDataTime(e:Event):Void
-	{
-		_loader.removeEventListener(Event.COMPLETE, parseDataTime);
-
-		if (Std.string((cast e.currentTarget).data) == "")
-		{
-			#if debug
-			FlxG.log.warn("FlxGameJolt received no data back. This is probably because one of the values it was passed is wrong.");
-			#end
-			return;
-		}
-
-		var stringArray:Array<String> = Std.string((cast e.currentTarget).data).split("\r");
-
-		// this regex will remove line breaks and quotes down below
-		var r:EReg = ~/[\r\n\t"]+/g;
-
-		for (string in stringArray)
-		{
-			// remove quotes, line breaks via regex
-			string = r.replace(string, "");
-			if (string.length > 1)
+			if (Std.string((cast e.currentTarget).data) == "")
 			{
-				var split:Int = string.indexOf(":");
-				var temp:Array<String> = [string.substring(0, split), string.substring(split + 1, string.length)];
-				returnMapTime.set(temp[0], temp[1]);
+				#if debug
+				FlxG.log.warn("FlxGameJolt received no data back. This is probably because one of the values it was passed is wrong.");
+				#end
+				return;
 			}
-		}
-
-		#if debug
-		if (returnMapTime.exists("message") && verbose)
-			FlxG.log.add("FlxGameJolt: GameJolt returned the following message: " + returnMapTime.get("message"));
-		#end
-
-		if (_getImage)
-		{
-			retrieveImage(returnMapTime);
-			return;
-		}
-
-		if (_callBackTime != null && !_verifyAuth)
-		{
-			_callBackTime(returnMapTime);
-		}
-		else if (_verifyAuth)
-		{
-			verifyAuthentication(returnMapTime);
-		}
-	}
-
-	/**
-	 * A generic internal function to setup and send a URLRequest. All of the functions that interact with the API use this.
-	 *
-	 * @param	URLString	The URL to send to. Usually formatted as the API url, section of the API (e.g. "trophies/") and then variables to pass (e.g. user name, trophy ID).
-	 * @param	Callback	A function to call when loading is done and data is parsed.
-	 */
-	 static function sendLoaderRequestBatch(URLString:String, ?Callback:Dynamic):Void
-	{
-		var request:URLRequest = new URLRequest(URLString + "&signature=" + encryptURL(URLString));
-		request.method = URLRequestMethod.GET;
-
-		_callBack = Callback;
-
-		if (_loaderBatch == null)
-		{
-			_loaderBatch = new URLLoader();
-			_loaderBatch.addEventListener(Event.COMPLETE, parseDataBatch);
-		}
+	
+			var stringArray:Array<String> = Std.string((cast e.currentTarget).data).split("\r");
+	
+			// this regex will remove line breaks and quotes down below
+			var r:EReg = ~/[\r\n\t"]+/g;
+	
+			var keys:Int = 0;
+			for (string in stringArray)
+			{
+				// remove quotes, line breaks via regex
+				string = r.replace(string, "");
+				if (string.length > 1)
+				{
+					var split:Int = string.indexOf(":");
+					var temp:Array<String> = [string.substring(0, split), string.substring(split + 1, string.length)];
+					if (_loaderGroup._batch)
+					{
+						var suffix:String = "";
+						if (keys > 0)
+							suffix = ""+keys;
+						if (temp[0] == 'key')
+							keys++;
+						_loaderGroup._returnMap.set(temp[0]+suffix, temp[1]);
+					}
+					else
+						_loaderGroup._returnMap.set(temp[0], temp[1]);
+				}
+			}
+			_loaderGroup._batch = false; //reset
+	
+			#if debug
+			if (_loaderGroup._returnMap.exists("message") && verbose)
+				FlxG.log.add("FlxGameJolt: GameJolt returned the following message: " + _loaderGroup._returnMap.get("message"));
+			#end
+	
+			if (_loaderGroup._getImage)
+			{
+				retrieveImage(_loaderGroup);
+				return;
+			}
+	
+			if (_loaderGroup._callBack != null && !_verifyAuth)
+			{
+				_loaderGroup._callBack(_loaderGroup._returnMap);
+			}
+			else if (_verifyAuth)
+			{
+				verifyAuthentication(_loaderGroup);
+			}
 			
+			
+		}
 
-		#if debug
-		if (verbose)
-			FlxG.log.add("FlxGameJolt: Contacting " + request.url);
-		#end
-
-		_loaderBatch.load(request);
+		_loaderGroup._loader.addEventListener(Event.COMPLETE, parseData);
+		_loaderGroup._loader.load(request);
 	}
 
-
-	/**
-	 * Called when the URLLoader has received data back.
-	 * Will call _callBack() with the data received from GameJolt as Map<String,String> when done.
-	 * However, if we're getting an image, a second URLRequest is called, and that will be done first.
-	 * Or, if we're authenticating the user, the verifyAuthentication function will be called instead.
-	 *
-	 * @param	e	The URLLoader complete event.
-	 */
+	/*
 	 static function parseDataBatch(e:Event):Void
 	{
 		//_loader.removeEventListener(Event.COMPLETE, parseData);
@@ -923,7 +844,7 @@ class FlxGameJolt
 		{
 			verifyAuthentication(returnMap);
 		}
-	}
+	}*/
 
 	/**
 	 * Called when the URLLoader has received data back.
@@ -935,52 +856,7 @@ class FlxGameJolt
 	 */
 	static function parseData(e:Event):Void
 	{
-		_loader.removeEventListener(Event.COMPLETE, parseData);
-
-		if (Std.string((cast e.currentTarget).data) == "")
-		{
-			#if debug
-			FlxG.log.warn("FlxGameJolt received no data back. This is probably because one of the values it was passed is wrong.");
-			#end
-			return;
-		}
-
-		var stringArray:Array<String> = Std.string((cast e.currentTarget).data).split("\r");
-
-		// this regex will remove line breaks and quotes down below
-		var r:EReg = ~/[\r\n\t"]+/g;
-
-		for (string in stringArray)
-		{
-			// remove quotes, line breaks via regex
-			string = r.replace(string, "");
-			if (string.length > 1)
-			{
-				var split:Int = string.indexOf(":");
-				var temp:Array<String> = [string.substring(0, split), string.substring(split + 1, string.length)];
-				returnMap.set(temp[0], temp[1]);
-			}
-		}
-
-		#if debug
-		if (returnMap.exists("message") && verbose)
-			FlxG.log.add("FlxGameJolt: GameJolt returned the following message: " + returnMap.get("message"));
-		#end
-
-		if (_getImage)
-		{
-			retrieveImage(returnMap);
-			return;
-		}
-
-		if (_callBack != null && !_verifyAuth)
-		{
-			_callBack(returnMap);
-		}
-		else if (_verifyAuth)
-		{
-			verifyAuthentication(returnMap);
-		}
+		//_loader.removeEventListener(Event.COMPLETE, parseData);
 	}
 
 	/**
@@ -988,9 +864,9 @@ class FlxGameJolt
 	 *
 	 * @param	ReturnMap	The data received back from GameJolt. This should be {"success"="true"} if authenticated, or {"success"="false"} otherwise.
 	 */
-	static function verifyAuthentication(ReturnMap:Map<String, String>):Void
+	static function verifyAuthentication(_loaderGroup:RequestLoader):Void
 	{
-		if (ReturnMap.exists("success") && ReturnMap.get("success") == "true")
+		if (_loaderGroup._returnMap.exists("success") && _loaderGroup._returnMap.get("success") == "true")
 		{
 			_initialized = true;
 		}
@@ -1002,8 +878,8 @@ class FlxGameJolt
 
 		_verifyAuth = false;
 
-		if (_callBack != null)
-			_callBack(_initialized);
+		if (_loaderGroup._callBack != null)
+			_loaderGroup._callBack(_initialized);
 	}
 
 	/**
@@ -1031,11 +907,11 @@ class FlxGameJolt
 	 * @param	ID			The ID of the trophy whose image you want to get.
 	 * @param	Callback	An optional callback function. Must take a BitmapData object as a parameter.
 	 */
-	public static function fetchTrophyImage(ID:Int, ?Callback:BitmapData->Void):Void
+	public static function fetchTrophyImage(ID:Int, ?Callback:BitmapData->Void, ?loaderGroup:String = "trophyImage"):Void
 	{
 		if (!gameInit)
 			return;
-		_getImage = true;
+		getLoaderGroup(loaderGroup)._getImage = true;
 		fetchTrophy(ID, Callback);
 	}
 
@@ -1046,29 +922,45 @@ class FlxGameJolt
 	 *
 	 * @param	Callback	An optional callback function. Must take a BitmapData object as a parameter.
 	 */
-	public static function fetchAvatarImage(?Callback:BitmapData->Void):Void
+	public static function fetchAvatarImage(?Callback:BitmapData->Void, ?loaderGroup:String = "trophyImage"):Void
 	{
 		if (!gameInit)
 			return;
-		_getImage = true;
+		getLoaderGroup(loaderGroup)._getImage = true;
 		fetchUser(0, _userName, null, Callback);
+	}
+
+	static function getLoaderGroup(loaderGroup:String)
+	{
+		if (!_loaders.exists(loaderGroup))
+		{
+			var _loaderGroup = {_loader: new URLLoader(), _callBack: null, _returnMap: new Map<String,String>(), _getImage: false, _batch: false};
+			_loaders.set(loaderGroup, _loaderGroup);
+		}
+		return _loaders.get(loaderGroup);
 	}
 
 	/**
 	 * Internal function that uses the image_url or avatar_url element from GameJolt to start a Loader that will retrieve the desired image.
 	 */
-	static function retrieveImage(ImageMap:Map<String, String>):Void
+	static function retrieveImage(_loaderGroup:RequestLoader):Void
 	{
-		if (ImageMap.exists("image_url"))
+		var returnImage = function(e:Event)
 		{
-			var request:URLRequest = new URLRequest(ImageMap.get("image_url"));
+			if (_loaderGroup._callBack != null)
+				_loaderGroup._callBack((cast e.currentTarget).content.bitmapData);
+			_loaderGroup._getImage = false;
+		}
+		if (_loaderGroup._returnMap.exists("image_url"))
+		{
+			var request:URLRequest = new URLRequest(_loaderGroup._returnMap.get("image_url"));
 			var loader = new Loader();
 			loader.contentLoaderInfo.addEventListener(Event.COMPLETE, returnImage);
 			loader.load(request);
 		}
-		else if (ImageMap.exists("avatar_url"))
+		else if (_loaderGroup._returnMap.exists("avatar_url"))
 		{
-			var request:URLRequest = new URLRequest(ImageMap.get("avatar_url"));
+			var request:URLRequest = new URLRequest(_loaderGroup._returnMap.get("avatar_url"));
 			var loader = new Loader();
 			loader.contentLoaderInfo.addEventListener(Event.COMPLETE, returnImage);
 			loader.load(request);
@@ -1079,17 +971,6 @@ class FlxGameJolt
 			FlxG.log.warn("FlxGameJolt: Failed to load image");
 			#end
 		}
-	}
-
-	/**
-	 * Internal function to send the image_url or avatar_url content to the callback function as BitmapData.
-	 */
-	static function returnImage(e:Event):Void
-	{
-		if (_callBack != null)
-			_callBack((cast e.currentTarget).content.bitmapData);
-
-		_getImage = false;
 	}
 
 	/**

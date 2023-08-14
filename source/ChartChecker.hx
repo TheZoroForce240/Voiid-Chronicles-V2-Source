@@ -21,7 +21,7 @@ class ChartChecker
     private static final chartList:Array<ChartData> =
     [
         {song: "light-it-up", diff: "voiid", totalNoteCount: 761, playerNoteCount: 380 },
-        {song: "ruckus", diff: "voiid", totalNoteCount: 2587, playerNoteCount: 1340 },
+        {song: "ruckus", diff: "voiid", totalNoteCount: 2559, playerNoteCount: 1318},
         {song: "target-practice", diff: "voiid", totalNoteCount: 2061, playerNoteCount: 1040 },
 
         {song: "burnout", diff: "voiid", totalNoteCount: 1546, playerNoteCount: 732},
@@ -60,15 +60,28 @@ class ChartChecker
         return null;
     }
 
+    public static function exists(song:String)
+    {
+        song = song.replace(" ", "-");
+        for (c in chartList)
+            if (c.song == song)
+                return true;
+        return false;
+    }
+
     public static function getTotalNotes(notes:Array<Note>, mustPress:Bool)
     {
         var c:Int = 0;
         for (n in notes)
         {
-            if (n.mustPress == mustPress)
-                c++;
-            if (n.arrow_Type == 'REJECTED_NOTES' || n.arrow_Type == 'death' || n.arrow_Type == 'hurt')
-                c--;
+            if (!n.isSustainNote)
+            {
+                if (n.mustPress == mustPress)
+                    c++;
+                if (n.arrow_Type == 'REJECTED_NOTES' || n.arrow_Type == 'death' || n.arrow_Type == 'hurt')
+                    c--;
+            }
+
         }
         return c;
     }
