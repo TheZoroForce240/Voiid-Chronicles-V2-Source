@@ -3599,7 +3599,7 @@ class PlayState extends MusicBeatState
 					Highscore.saveScore(SONG.song, songScore, storyDifficultyStr);
 					Highscore.saveRank(SONG.song, Ratings.getRank(accuracy, misses), storyDifficultyStr, accuracy);
 					if (!hasUsedBot && !didDie && !isCheating && 
-						hasMechAndModchartsEnabled && songMultiplier >= 1)
+						hasMechAndModchartsEnabled && songMultiplier >= 1 && songScore >= 0 && accuracy >= 0 && accuracy <= 100 && misses >= 0)
 					{
 						Leaderboards.addHighScore(SONG.song.toLowerCase(), storyDifficultyStr.toLowerCase(), songMultiplier, characterPlayingAs == 1, accuracy, songScore, misses);
 					}
